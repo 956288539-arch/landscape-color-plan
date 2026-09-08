@@ -1,0 +1,777 @@
+{
+  "schema": "landscape-material-workflows/v1",
+  "version": "1.1",
+  "basis": "按保存状态核验的源关系与新项目迁移工序；不是源作者历史步骤。源数值不是新图固定值。候选素材不是全部投放清单。",
+  "evidence": "library/composition-audit.json",
+  "common_operations": {
+    "grass": [
+      {
+        "id": "base",
+        "operation": "按目标绿地形状建立基底与开敞面"
+      },
+      {
+        "id": "macro_tone",
+        "operation": "按空间组织亮、中、暗及柔和过渡，独立控制范围"
+      },
+      {
+        "id": "texture",
+        "operation": "主草纹与辅助变化纹理分层，核对尺度、Fill、混合和接缝"
+      },
+      {
+        "id": "local_grade",
+        "operation": "合成后以剪贴或蒙版局部校正色阶、冷暖及饱和度"
+      },
+      {
+        "id": "edge",
+        "operation": "结合林缘、邻接铺地和已有地形处理暗部与收口"
+      },
+      {
+        "id": "review",
+        "operation": "对照基底、材质、完整处理三个阶段，并检查缩略图"
+      }
+    ],
+    "water": [
+      {
+        "id": "base",
+        "operation": "按目标水域与孔洞建立水底色"
+      },
+      {
+        "id": "texture",
+        "operation": "控制水纹方向、尺度、模式与强度"
+      },
+      {
+        "id": "depth",
+        "operation": "沿真实岸边及空间关系组织深浅，避免均匀黑圈"
+      },
+      {
+        "id": "edge",
+        "operation": "分开池岸收边、岸内暗部与相邻设施投影"
+      },
+      {
+        "id": "details",
+        "operation": "表现方案已有的跌水、喷泉、平台等内容；无此功能则不适用"
+      },
+      {
+        "id": "grade",
+        "operation": "统一蓝灰或蓝绿基调，检查水纹和高光不会盖过主体"
+      }
+    ],
+    "paving": [
+      {
+        "id": "base",
+        "operation": "区分主径、次径、节点和路缘，按目标边界建底"
+      },
+      {
+        "id": "texture",
+        "operation": "控制颗粒、砖缝及铺设方向，核对图案资源、比例、模式与相位"
+      },
+      {
+        "id": "tone",
+        "operation": "按大块空间轻调明暗和冷暖，抑制平铺重复"
+      },
+      {
+        "id": "edge",
+        "operation": "按实际边界补嵌带、压边、台阶与构件接触关系"
+      },
+      {
+        "id": "grade",
+        "operation": "统一铺装层次并保留建筑、植被、文字的可读对比"
+      }
+    ],
+    "wood": [
+      {
+        "id": "base",
+        "operation": "建立目标平台或栈道及孔洞"
+      },
+      {
+        "id": "texture",
+        "operation": "木纹与板缝随实际铺设方向和比例"
+      },
+      {
+        "id": "tone",
+        "operation": "局部变化保持木面整体，不用随机强斑点"
+      },
+      {
+        "id": "edge_shadow",
+        "operation": "区分内侧压边、外缘厚度、构件接触影与投影"
+      },
+      {
+        "id": "review",
+        "operation": "检查转角接缝、临水收口和相邻地面层次"
+      }
+    ],
+    "planting": [
+      {
+        "id": "base",
+        "operation": "按目标种植范围建立深色低层背景"
+      },
+      {
+        "id": "middle",
+        "operation": "用粗细与明暗不同的地被或灌木组织中层"
+      },
+      {
+        "id": "accent",
+        "operation": "花色和高亮只强调节点，形成有方向的疏密"
+      },
+      {
+        "id": "edge",
+        "operation": "处理破碎自然冠缘、透底与局部接触暗部"
+      },
+      {
+        "id": "review",
+        "operation": "检查与乔木、草坪的前后关系及开口，不把种植层铺成等宽色带"
+      }
+    ],
+    "tree": [
+      {
+        "id": "composition",
+        "operation": "先组织大中小角色、树群与留口，再安排素材和位置"
+      },
+      {
+        "id": "scale",
+        "operation": "按可见冠幅和有效像素核对尺度，排除透明余量与树组混淆"
+      },
+      {
+        "id": "canopy",
+        "operation": "分别设置冠层像素、Fill、Opacity和父组，保持冠形与色阶主次"
+      },
+      {
+        "id": "shadow",
+        "operation": "检查烘焙影和效果开关，按本图光向及对象尺度调整投影"
+      },
+      {
+        "id": "contact",
+        "operation": "协调林下地被、局部暗部和冠层重叠，不用同一黑影重复压深"
+      },
+      {
+        "id": "review",
+        "operation": "检查完整冠缘、边界、通路、文字与最终缩略节奏"
+      }
+    ],
+    "furniture": [
+      {
+        "id": "function",
+        "operation": "只在已有停留或设施空间安排配景"
+      },
+      {
+        "id": "place",
+        "operation": "核对比例、朝向、落点、材质与地面接触"
+      },
+      {
+        "id": "shadow",
+        "operation": "单独控制接触影和投影，核对原样式及烘焙影"
+      },
+      {
+        "id": "grade",
+        "operation": "融入节点明暗，避免悬浮、过亮或阻断动线"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "function",
+        "operation": "核对车行空间、车位与行驶方向"
+      },
+      {
+        "id": "place",
+        "operation": "按目标比例放置并处理透明边缘"
+      },
+      {
+        "id": "shadow",
+        "operation": "核对车身明暗、接触影和统一投影"
+      },
+      {
+        "id": "review",
+        "operation": "检查道路标线、位置与总体配景密度"
+      }
+    ],
+    "person": [
+      {
+        "id": "function",
+        "operation": "按步行、停留、草坪活动等已有功能组织人物"
+      },
+      {
+        "id": "place",
+        "operation": "核对姿态、可见尺寸和疏密"
+      },
+      {
+        "id": "shadow",
+        "operation": "读取原透明度、效果开关及投影，避免重复"
+      },
+      {
+        "id": "review",
+        "operation": "人物帮助读懂尺度和活动，不遮挡路径、设施或文字"
+      }
+    ],
+    "water_detail": [
+      {
+        "id": "function",
+        "operation": "确认目标已有喷泉、跌水等功能"
+      },
+      {
+        "id": "place",
+        "operation": "依据目标几何布置节点与节奏"
+      },
+      {
+        "id": "blend",
+        "operation": "控制透明、亮度、落水形态和水面叠加关系"
+      },
+      {
+        "id": "review",
+        "operation": "检查水岸、设施、反光与空间尺度"
+      }
+    ]
+  },
+  "profiles": {
+    "rural": {
+      "source_id": "rural",
+      "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766",
+      "roles": {
+        "grass": {
+          "workflow_id": "rural-grass-v1",
+          "candidate_assets": [
+            "P-G01",
+            "P-G02"
+          ],
+          "source_layer_ids": [
+            35,
+            43,
+            32,
+            34,
+            30,
+            31,
+            27,
+            28,
+            25,
+            26,
+            5,
+            22,
+            23,
+            126,
+            198,
+            179
+          ],
+          "adaptation": [
+            "分别重建草地基底与剪贴纹理；使用灰度变化蒙版控制显露强度",
+            "有地形依据时再组织地形叠加和坡面阴影，随后统一低饱和气氛"
+          ]
+        },
+        "water": {
+          "workflow_id": "rural-water-v1",
+          "candidate_assets": [
+            "P-W01"
+          ],
+          "source_layer_ids": [
+            68,
+            532
+          ],
+          "adaptation": [
+            "P-W01 作为柔光约 30.2% 的辅助水纹；底水色和岸内阴影另建"
+          ]
+        },
+        "paving": {
+          "workflow_id": "rural-paving-v1",
+          "candidate_assets": [
+            "P-P01",
+            "P-P02",
+            "P-P03",
+            "P-P04"
+          ],
+          "source_layer_ids": [
+            71,
+            72,
+            73,
+            74,
+            64,
+            167
+          ],
+          "adaptation": [
+            "参考本土地面：低强度图案叠加后再剪贴变化纹理；新场景重新核对颗粒比例"
+          ]
+        },
+        "wood": {
+          "workflow_id": "rural-wood-v1",
+          "candidate_assets": [
+            "P-D01",
+            "P-D02"
+          ],
+          "source_layer_ids": [
+            416,
+            418,
+            161,
+            164
+          ],
+          "adaptation": [
+            "木纹剪贴于平台形状，基底内阴影与外投影分开"
+          ]
+        },
+        "tree": {
+          "workflow_id": "rural-tree-v1",
+          "candidate_assets": [
+            "P-T01",
+            "P-T02",
+            "P-T03",
+            "P-T04"
+          ],
+          "source_layer_ids": [
+            287,
+            87
+          ],
+          "adaptation": [
+            "保留 P-T01 像素内已有树影；低像素小样不足时换适配来源，统一低饱和层次"
+          ]
+        }
+      },
+      "finishing": {
+        "source_layer_ids": [
+          173,
+          174,
+          175,
+          176,
+          535
+        ],
+        "operations": [
+          "局部材质稳定后统一色彩平衡、色阶与低饱和程度",
+          "目标有地形依据时保留坡面层次；云雾仅在需要的展示范围使用"
+        ]
+      }
+    },
+    "residential": {
+      "source_id": "residential",
+      "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e",
+      "roles": {
+        "grass": {
+          "workflow_id": "residential-grass-v1",
+          "candidate_assets": [
+            "R-G01",
+            "R-G02"
+          ],
+          "source_layer_ids": [
+            132,
+            158,
+            162
+          ],
+          "adaptation": [
+            "源草坪已有像素内亮暗及正片叠底、内阴影；取样后重新组织目标连续草坪的宏观明暗",
+            "内阴影只处理合适的局部接触，不能沿每块草坪等宽圈黑"
+          ]
+        },
+        "water": {
+          "workflow_id": "residential-water-v1",
+          "candidate_assets": [
+            "R-W01"
+          ],
+          "source_layer_ids": [
+            153,
+            154,
+            162
+          ],
+          "adaptation": [
+            "水底纹理与岸线 / 台阶细部独立，协调米白庭院和亮绿地被"
+          ]
+        },
+        "paving": {
+          "workflow_id": "residential-paving-v1",
+          "candidate_assets": [
+            "R-P01",
+            "R-P02"
+          ],
+          "source_layer_ids": [
+            159,
+            140,
+            149,
+            143
+          ],
+          "adaptation": [
+            "灰地样式中的图案资源、比例和相位需随同恢复",
+            "米白地面同时处理暖色叠加、内阴影及节点收边"
+          ]
+        },
+        "tree": {
+          "workflow_id": "residential-tree-v1",
+          "candidate_assets": [
+            "R-T01",
+            "R-T02",
+            "R-T03",
+            "R-T04",
+            "R-T05",
+            "R-T06",
+            "R-T07",
+            "R-T08"
+          ],
+          "source_layer_ids": [
+            34,
+            32,
+            36,
+            33,
+            35,
+            39,
+            49,
+            54
+          ],
+          "adaptation": [
+            "单株与多株树组分工；冠层透明度、树影和建筑投影分别控制"
+          ]
+        },
+        "furniture": {
+          "workflow_id": "residential-furniture-v1",
+          "candidate_assets": [
+            "R-F01",
+            "R-F02"
+          ],
+          "source_layer_ids": [
+            166,
+            164
+          ],
+          "adaptation": [
+            "依源素材和节点功能处理，检查像素、透明、样式与地面接触。"
+          ]
+        },
+        "vehicle": {
+          "workflow_id": "residential-vehicle-v1",
+          "candidate_assets": [
+            "R-V01"
+          ],
+          "source_layer_ids": [
+            163
+          ],
+          "adaptation": [
+            "依源素材和节点功能处理，检查像素、透明、样式与地面接触。"
+          ]
+        },
+        "person": {
+          "workflow_id": "residential-person-v1",
+          "candidate_assets": [
+            "R-H01"
+          ],
+          "source_layer_ids": [
+            52
+          ],
+          "adaptation": [
+            "依源素材和节点功能处理，检查像素、透明、样式与地面接触。"
+          ]
+        }
+      },
+      "finishing": {
+        "source_layer_ids": [
+          39,
+          49,
+          54,
+          47
+        ],
+        "operations": [
+          "先处理建筑、构件和树木各自投影，再核对景观底层的明暗",
+          "源调色部分已合并入像素；新成果可用独立调整层统一冷暖，不套用别库滤镜参数"
+        ]
+      }
+    },
+    "landscape": {
+      "source_id": "landscape",
+      "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12",
+      "roles": {
+        "grass": {
+          "workflow_id": "landscape-grass-v1",
+          "candidate_assets": [
+            "M-G01",
+            "M-G02"
+          ],
+          "source_layer_ids": [
+            18,
+            288,
+            289,
+            290,
+            292
+          ],
+          "adaptation": [
+            "以目标草地为共用剪贴基底：M-G01 主草纹 → M-G02 叠加草纹 → 局部曲线与饱和度",
+            "源 M-G02 的 Fill 约 32.9%，Opacity 100%；合成后再按目标图校色"
+          ]
+        },
+        "water": {
+          "workflow_id": "landscape-water-v1",
+          "candidate_assets": [
+            "M-W01"
+          ],
+          "source_layer_ids": [
+            55,
+            294,
+            70,
+            71
+          ],
+          "adaptation": [
+            "以目标水色形状承载 M-W01，再处理岸边和方案已有喷泉"
+          ]
+        },
+        "paving": {
+          "workflow_id": "landscape-paving-v1",
+          "candidate_assets": [
+            "M-P01",
+            "M-P02"
+          ],
+          "source_layer_ids": [
+            64,
+            66,
+            53,
+            54,
+            47
+          ],
+          "adaptation": [
+            "浅色路面、独立路边线和暖色嵌带共同形成流线层次；条石边界和纹理方向单独处理"
+          ]
+        },
+        "wood": {
+          "workflow_id": "landscape-wood-v1",
+          "candidate_assets": [
+            "M-D01"
+          ],
+          "source_layer_ids": [
+            63
+          ],
+          "adaptation": [
+            "木纹使用目标平台蒙版，匹配铺设方向和临水边缘"
+          ]
+        },
+        "tree": {
+          "workflow_id": "landscape-tree-v1",
+          "candidate_assets": [
+            "M-T01",
+            "M-T02",
+            "M-T03",
+            "M-T04"
+          ],
+          "source_layer_ids": [
+            241,
+            238,
+            239,
+            240,
+            237,
+            228,
+            296,
+            295,
+            291,
+            300
+          ],
+          "adaptation": [
+            "同时读取 Fill 与 Opacity；区分已开启和关闭的源投影，保持轻盈冠层和局部色影"
+          ]
+        },
+        "vehicle": {
+          "workflow_id": "landscape-vehicle-v1",
+          "candidate_assets": [
+            "M-V01"
+          ],
+          "source_layer_ids": [
+            239
+          ],
+          "adaptation": [
+            "依源素材和节点功能处理，检查像素、透明、样式与地面接触。"
+          ]
+        },
+        "person": {
+          "workflow_id": "landscape-person-v1",
+          "candidate_assets": [
+            "M-H01",
+            "M-H02"
+          ],
+          "source_layer_ids": [
+            102,
+            104
+          ],
+          "adaptation": [
+            "依源素材和节点功能处理，检查像素、透明、样式与地面接触。"
+          ]
+        },
+        "water_detail": {
+          "workflow_id": "landscape-water_detail-v1",
+          "candidate_assets": [
+            "M-S01"
+          ],
+          "source_layer_ids": [
+            70
+          ],
+          "adaptation": [
+            "依源素材和节点功能处理，检查像素、透明、样式与地面接触。"
+          ]
+        }
+      },
+      "finishing": {
+        "source_layer_ids": [
+          297,
+          298,
+          299,
+          302
+        ],
+        "operations": [
+          "草坪局部曲线 / 饱和度之后，再处理上部色阶、亮度对比度与选择性冷暖",
+          "保留目标浅路、细线、水面与主树对比，避免整体漂白"
+        ]
+      }
+    },
+    "park": {
+      "source_id": "park",
+      "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe",
+      "roles": {
+        "grass": {
+          "workflow_id": "park-grass-v1",
+          "candidate_assets": [
+            "U-G01",
+            "U-G02"
+          ],
+          "source_layer_ids": [
+            12,
+            34,
+            331,
+            36,
+            37
+          ],
+          "adaptation": [
+            "主草坪用底纹和两层不同强度的明暗，源 Fill 约 65.1% 与 22.0%；目标图按新蒙版重新组织",
+            "台阶绿带基底与辅助纹理单独处理；源辅助层 Fill 约 31.0%"
+          ]
+        },
+        "paving": {
+          "workflow_id": "park-paving-v1",
+          "candidate_assets": [
+            "U-P01",
+            "U-P02",
+            "U-P03"
+          ],
+          "source_layer_ids": [
+            23,
+            29,
+            31,
+            69,
+            68,
+            70,
+            159
+          ],
+          "adaptation": [
+            "轻铺装、碎石叠加和细边分工；源 pave_path Fill 约 45.1%，gravel Fill 约 32.2%",
+            "岩石花园通过两种图案、溶解与叠加形成颗粒差别，限用于对应节点"
+          ]
+        },
+        "planting": {
+          "workflow_id": "park-planting-v1",
+          "candidate_assets": [
+            "U-B01",
+            "U-B02",
+            "U-B03"
+          ],
+          "source_layer_ids": [
+            60,
+            57,
+            54,
+            55,
+            50
+          ],
+          "adaptation": [
+            "深绿或粗草基底图案 → 粗细植被 → 黄绿 / 粉色花境 → 局部收边与暗部",
+            "U-B01–03 只覆盖部分源像素，需补足基底与图案依赖"
+          ]
+        },
+        "tree": {
+          "workflow_id": "park-tree-v1",
+          "candidate_assets": [
+            "U-T01",
+            "U-T02",
+            "U-T03",
+            "U-T04"
+          ],
+          "source_layer_ids": [
+            184,
+            86,
+            173,
+            112,
+            92,
+            125,
+            116
+          ],
+          "adaptation": [
+            "读取 grove 父组约 78.8% 的透明度以及各单株 Fill；用大小、冠形、透底与不同距离树影形成主次"
+          ]
+        },
+        "furniture": {
+          "workflow_id": "park-furniture-v1",
+          "candidate_assets": [
+            "U-F01",
+            "U-F02"
+          ],
+          "source_layer_ids": [
+            295,
+            66
+          ],
+          "adaptation": [
+            "依源素材和节点功能处理，检查像素、透明、样式与地面接触。"
+          ]
+        },
+        "vehicle": {
+          "workflow_id": "park-vehicle-v1",
+          "candidate_assets": [
+            "U-V01"
+          ],
+          "source_layer_ids": [
+            356
+          ],
+          "adaptation": [
+            "依源素材和节点功能处理，检查像素、透明、样式与地面接触。"
+          ]
+        },
+        "person": {
+          "workflow_id": "park-person-v1",
+          "candidate_assets": [
+            "U-H01",
+            "U-H02",
+            "U-H03"
+          ],
+          "source_layer_ids": [
+            359,
+            360,
+            334
+          ],
+          "adaptation": [
+            "依源素材和节点功能处理，检查像素、透明、样式与地面接触。"
+          ]
+        }
+      },
+      "finishing": {
+        "source_layer_ids": [
+          2,
+          76,
+          285,
+          184
+        ],
+        "operations": [
+          "协调草坪、暖铺装、花境、家具、活动人物与独立投影",
+          "保留主场地与外围配景的强弱关系；需要时用新调整层统一，不声称源文件自带调整层"
+        ]
+      }
+    }
+  },
+  "completion_record": {
+    "required": [
+      "zone_id",
+      "workflow_id",
+      "operation_id",
+      "target_layer_ids",
+      "mask_ids",
+      "actual_parameters",
+      "status",
+      "operation_evidence"
+    ],
+    "optional": [
+      "frame_path",
+      "source_layer_ids"
+    ],
+    "status": [
+      "pending",
+      "done",
+      "not_applicable"
+    ],
+    "operation_evidence": "逐项说明实际作用图层、蒙版和参数的职责，附阶段图或实际图层核验位置；不能将父组全部图层与通用参数复制给每个 operation 充当证据。",
+    "done_requires": "该操作实际执行且有对应证据；done 仅代表执行状态，视觉结果另行检查。",
+    "not_applicable_requires": "依据目标设计或明确风格确认不具备该功能或无需该效果；未知功能、未执行或素材缺失保留 pending。",
+    "visual_review_guide": "skills/landscape-color-plan/references/visual-review.md",
+    "visual_record": "另存 visual_review.json 或等价 Markdown，记录目标图版本/哈希、参考、图片证据、位置观察及 pass / revise / not_applicable。未检查保留 pending。",
+    "visual_gate": "关键主节点试铺与样例对照，主要问题修正后展开；最终整图、主场地和 100% 局部实际检查。",
+    "quality_rule": "区分 requested_quality 与 achieved_quality；素材数、组名、操作 done 和配置 quality_level 都不能自动决定实际完成度。"
+  }
+}

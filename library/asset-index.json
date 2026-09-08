@@ -1,0 +1,5474 @@
+{
+  "schema": "landscape-assets/v1",
+  "assets": [
+    {
+      "id": "P-G01",
+      "style": "rural",
+      "name": "橄榄绿草地肌理",
+      "category": "G",
+      "kind": "texture",
+      "file": "assets/P-G01.png",
+      "pixel_size": [
+        512,
+        512
+      ],
+      "source_index": [
+        1,
+        6
+      ],
+      "source_layer_id": 34,
+      "source_layer_path": "绿色/图层 1 副本 18",
+      "source_crop_local_px": [
+        1836,
+        1020,
+        2348,
+        1532
+      ],
+      "source_crop_canvas_px": [
+        1836,
+        1020,
+        2348,
+        1532
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": true,
+      "source_clipping": true,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "山地公园、乡村草坡、大面积地被",
+      "rule": "使用目标绿地蒙版；降低接缝与重复纹理；结合分区深浅。",
+      "sha256": "5de8ff07d101f50caf0640eddb74c1500e4dbd35d2a06175be5cdf223d1ecdba",
+      "roles": [
+        "grass"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 44,
+          "name": "绿色",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "rural",
+        "layer_id": 34,
+        "clipping_base_layer_id": 32,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          44
+        ]
+      }
+    },
+    {
+      "id": "P-G02",
+      "style": "rural",
+      "name": "柔化自然植被肌理",
+      "category": "G",
+      "kind": "texture",
+      "file": "assets/P-G02.png",
+      "pixel_size": [
+        512,
+        512
+      ],
+      "source_index": [
+        1,
+        4
+      ],
+      "source_layer_id": 43,
+      "source_layer_path": "绿色/图层 1 副本 6",
+      "source_crop_local_px": [
+        612,
+        714,
+        1124,
+        1226
+      ],
+      "source_crop_canvas_px": [
+        612,
+        813,
+        1124,
+        1325
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": true,
+      "source_clipping": true,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "林下、坡面过渡、自然草地边缘",
+      "rule": "保持软边与细密颗粒；在目标范围内渐变叠加。",
+      "sha256": "d18fc95098e5e102a594992f03c4613310fe47ab5cf05db592c163c7751b5b62",
+      "roles": [
+        "grass"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 44,
+          "name": "绿色",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "rural",
+        "layer_id": 43,
+        "clipping_base_layer_id": 35,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          44
+        ]
+      }
+    },
+    {
+      "id": "P-W01",
+      "style": "rural",
+      "name": "自然水波纹理",
+      "category": "W",
+      "kind": "texture",
+      "file": "assets/P-W01.png",
+      "pixel_size": [
+        512,
+        512
+      ],
+      "source_index": [
+        1,
+        1
+      ],
+      "source_layer_id": 532,
+      "source_layer_path": "绿色/Layer 5",
+      "source_crop_local_px": [
+        1836,
+        1020,
+        2348,
+        1532
+      ],
+      "source_crop_canvas_px": [
+        1836,
+        1020,
+        2348,
+        1532
+      ],
+      "source_opacity_pct": 30.2,
+      "source_blend": "sLit",
+      "source_mask": false,
+      "source_clipping": true,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "河流、溪流、自然池塘",
+      "rule": "源图为柔光 30.2% 剪贴层；叠于蓝灰底色，不移植原河道轮廓。",
+      "sha256": "da21359918b46e5024a77ee7f9d40cffd38394fe8caa8a9a268af6d015128f4c",
+      "roles": [
+        "water"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 30.2,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 44,
+          "name": "绿色",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "rural",
+        "layer_id": 532,
+        "clipping_base_layer_id": 68,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          44
+        ]
+      }
+    },
+    {
+      "id": "P-P01",
+      "style": "rural",
+      "name": "暖土褐地面",
+      "category": "P",
+      "kind": "texture",
+      "file": "assets/P-P01.png",
+      "pixel_size": [
+        512,
+        512
+      ],
+      "source_index": [
+        2,
+        3
+      ],
+      "source_layer_id": 72,
+      "source_layer_path": "地面/混凝土 (15)",
+      "source_crop_local_px": [
+        918,
+        714,
+        1430,
+        1226
+      ],
+      "source_crop_canvas_px": [
+        1777,
+        968,
+        2289,
+        1480
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": true,
+      "source_clipping": true,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "村巷、集散小广场、乡土铺地",
+      "rule": "用目标道路或广场闭合蒙版；保留粗糙度与暖灰棕色。",
+      "sha256": "5ff348a02de5ca18629cec67f8d9d8ebf597007519b23872d0f16062d5d40254",
+      "roles": [
+        "paving"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 49,
+          "name": "地面",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "rural",
+        "layer_id": 72,
+        "clipping_base_layer_id": 71,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          49
+        ]
+      }
+    },
+    {
+      "id": "P-P02",
+      "style": "rural",
+      "name": "斑驳浅褐铺地",
+      "category": "P",
+      "kind": "texture",
+      "file": "assets/P-P02.png",
+      "pixel_size": [
+        512,
+        512
+      ],
+      "source_index": [
+        2,
+        1
+      ],
+      "source_layer_id": 64,
+      "source_layer_path": "地面/混凝土 (6) 副本",
+      "source_crop_local_px": [
+        0,
+        408,
+        512,
+        920
+      ],
+      "source_crop_canvas_px": [
+        244,
+        1939,
+        756,
+        2451
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": true,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "小节点、入口、乡村活动场",
+      "rule": "与草地建立材质差别；不要整片覆盖田野。",
+      "sha256": "5d97b57bb419946a059ccc6d2b77ace1ca0627c6d730acccc69d6ada9b45b15c",
+      "roles": [
+        "paving"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 49,
+          "name": "地面",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "rural",
+        "layer_id": 64,
+        "clipping_base_layer_id": 62,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          49
+        ]
+      }
+    },
+    {
+      "id": "P-P03",
+      "style": "rural",
+      "name": "冷灰细颗粒铺地",
+      "category": "P",
+      "kind": "texture",
+      "file": "assets/P-P03.png",
+      "pixel_size": [
+        512,
+        512
+      ],
+      "source_index": [
+        2,
+        5
+      ],
+      "source_layer_id": 74,
+      "source_layer_path": "地面/混凝土 (14)",
+      "source_crop_local_px": [
+        408,
+        408,
+        920,
+        920
+      ],
+      "source_crop_canvas_px": [
+        1849,
+        1407,
+        2361,
+        1919
+      ],
+      "source_opacity_pct": 70.2,
+      "source_blend": "norm",
+      "source_mask": true,
+      "source_clipping": true,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "步道、商业街、石质通道",
+      "rule": "从源图 70.2% 不透明度开始试铺，再统一图面灰度。",
+      "sha256": "9b8d8f3d80e355fe7db9b12ccf0315442cf760b43766ef057e56ce999b9548d7",
+      "roles": [
+        "paving"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 70.2,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 49,
+          "name": "地面",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "rural",
+        "layer_id": 74,
+        "clipping_base_layer_id": 73,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          49
+        ]
+      }
+    },
+    {
+      "id": "P-P04",
+      "style": "rural",
+      "name": "中灰混凝土肌理",
+      "category": "P",
+      "kind": "texture",
+      "file": "assets/P-P04.png",
+      "pixel_size": [
+        512,
+        512
+      ],
+      "source_index": [
+        2,
+        11
+      ],
+      "source_layer_id": 167,
+      "source_layer_path": "地面/混凝土 (17)",
+      "source_crop_local_px": [
+        1020,
+        1020,
+        1532,
+        1532
+      ],
+      "source_crop_canvas_px": [
+        2306,
+        1023,
+        2818,
+        1535
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": true,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "道路、服务设施外场",
+      "rule": "按主次路网分明度，所有纹理裁入目标道路边界。",
+      "sha256": "b81e6c1ad4482aac1860787028bf035f3f26317270df55fdc0bbe8b620eec01a",
+      "roles": [
+        "paving"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 49,
+          "name": "地面",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "rural",
+        "layer_id": 167,
+        "clipping_base_layer_id": 165,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          49
+        ]
+      }
+    },
+    {
+      "id": "P-D01",
+      "style": "rural",
+      "name": "自然木纹",
+      "category": "D",
+      "kind": "texture",
+      "file": "assets/P-D01.png",
+      "pixel_size": [
+        256,
+        256
+      ],
+      "source_index": [
+        15
+      ],
+      "source_layer_id": 418,
+      "source_layer_path": "木材 (13) 副本",
+      "source_crop_local_px": [
+        357,
+        1275,
+        613,
+        1531
+      ],
+      "source_crop_canvas_px": [
+        2584,
+        1498,
+        2840,
+        1754
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": true,
+      "source_clipping": true,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "栈道、亲水平台、木质小节点",
+      "rule": "木纹顺行进方向；纹理尺度随图幅统一，不继承源栈道路径。",
+      "sha256": "4fd02d4c3671cc4ed30668d5f8fe7693912ec97aac931f225d5a992abeddadf9",
+      "roles": [
+        "wood"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "rural",
+        "layer_id": 418,
+        "clipping_base_layer_id": 416,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "P-D02",
+      "style": "rural",
+      "name": "浅金木板纹理",
+      "category": "D",
+      "kind": "texture",
+      "file": "assets/P-D02.png",
+      "pixel_size": [
+        512,
+        512
+      ],
+      "source_index": [
+        2,
+        9
+      ],
+      "source_layer_id": 164,
+      "source_layer_path": "地面/木纹 (3) 副本",
+      "source_crop_local_px": [
+        816,
+        204,
+        1328,
+        716
+      ],
+      "source_crop_canvas_px": [
+        2158,
+        204,
+        2670,
+        716
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": true,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "重点观景平台、小型廊架地面",
+      "rule": "作为局部暖色点缀；先调低饱和度适应乡村基调。",
+      "sha256": "779f0ae3baf14a3940610e1381f13fb307fd30c595946dd3cb405e8839311cdb",
+      "roles": [
+        "wood"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 49,
+          "name": "地面",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "rural",
+        "layer_id": 164,
+        "clipping_base_layer_id": 161,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          49
+        ]
+      }
+    },
+    {
+      "id": "P-T01",
+      "style": "rural",
+      "name": "浅色乔木与烘焙树影",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/P-T01.png",
+      "pixel_size": [
+        67,
+        77
+      ],
+      "source_index": [
+        16,
+        69
+      ],
+      "source_layer_id": 287,
+      "source_layer_path": "树/图层 13 拷贝 6 副本 65",
+      "source_crop_local_px": [
+        0,
+        0,
+        67,
+        77
+      ],
+      "source_crop_canvas_px": [
+        2191,
+        230,
+        2258,
+        307
+      ],
+      "source_opacity_pct": 83.1,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "乡村村口、巷口、院落、远景点树",
+      "rule": "原素材仅 67×77 像素；只缩小使用。树影已烘焙，保持统一光向。",
+      "sha256": "63d7d5667cf20bd5442f91d45360e65d8cf0512df85272b6dd281265ccf43c26",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": 1,
+      "baked_shadow": true,
+      "baked_shadow_note": "浅色树冠右下的深色投影已在原始像素内。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 83.1,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 47,
+          "name": "树",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "rural",
+        "layer_id": 287,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          47
+        ]
+      }
+    },
+    {
+      "id": "P-T02",
+      "style": "rural",
+      "name": "低饱和自然树冠 1",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/P-T02.png",
+      "pixel_size": [
+        56,
+        45
+      ],
+      "source_index": [
+        16,
+        0
+      ],
+      "source_layer_id": 87,
+      "source_layer_path": "树/图层 3",
+      "source_crop_local_px": [
+        966,
+        662,
+        1022,
+        707
+      ],
+      "source_crop_canvas_px": [
+        2270,
+        2314,
+        2326,
+        2359
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "乡村林缘、疏林、坡地乔木",
+      "rule": "保留源素材低饱和色阶；先在目标底色上检查透明边缘与已有树影。",
+      "sha256": "53d484f25034fec1c7073b555fe1ed992a81886c3a142a609da732bbed73a8b6",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 47,
+          "name": "树",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "rural",
+        "layer_id": 87,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          47
+        ]
+      }
+    },
+    {
+      "id": "P-T03",
+      "style": "rural",
+      "name": "低饱和自然树冠 2",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/P-T03.png",
+      "pixel_size": [
+        36,
+        40
+      ],
+      "source_index": [
+        16,
+        0
+      ],
+      "source_layer_id": 87,
+      "source_layer_path": "树/图层 3",
+      "source_crop_local_px": [
+        770,
+        406,
+        806,
+        446
+      ],
+      "source_crop_canvas_px": [
+        2074,
+        2058,
+        2110,
+        2098
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "乡村林缘、疏林、坡地乔木",
+      "rule": "保留源素材低饱和色阶；先在目标底色上检查透明边缘与已有树影。",
+      "sha256": "8971b4674137e237bca23155b81aee73b9113d085b7f639f01af15ea5d69facc",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 47,
+          "name": "树",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "rural",
+        "layer_id": 87,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          47
+        ]
+      }
+    },
+    {
+      "id": "P-T04",
+      "style": "rural",
+      "name": "低饱和自然树冠 3",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/P-T04.png",
+      "pixel_size": [
+        46,
+        38
+      ],
+      "source_index": [
+        16,
+        0
+      ],
+      "source_layer_id": 87,
+      "source_layer_path": "树/图层 3",
+      "source_crop_local_px": [
+        1463,
+        277,
+        1509,
+        315
+      ],
+      "source_crop_canvas_px": [
+        2767,
+        1929,
+        2813,
+        1967
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "乡村林缘、疏林、坡地乔木",
+      "rule": "保留源素材低饱和色阶；先在目标底色上检查透明边缘与已有树影。",
+      "sha256": "bb7cbe94a35a1de54f4a766bc727524e0bceba9112b7e6b2c508ef6623d332f0",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 47,
+          "name": "树",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "rural",
+        "layer_id": 87,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          47
+        ]
+      }
+    },
+    {
+      "id": "P-REF01",
+      "style": "rural",
+      "name": "山地植被与等高线层次",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/P-REF01.jpg",
+      "pixel_size": [
+        1550,
+        1190
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        80,
+        380,
+        1630,
+        1570
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "自然山体、坡地公园",
+      "rule": "借鉴草地、纹理、明暗和线条层次；地形线与坡向必须取自目标项目。",
+      "sha256": "6d4d89e45bb1788aecfdd8f685cee5af14d84c2167f54cb63d68e6ae6400193b",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "P-REF02",
+      "style": "rural",
+      "name": "村落与乡土铺装组合",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/P-REF02.jpg",
+      "pixel_size": [
+        1240,
+        1150
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        1790,
+        760,
+        3030,
+        1910
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "村落更新、乡村街巷",
+      "rule": "借鉴深色屋面、暖色地面、浅色点树与投影关系；建筑位置由目标 CAD 决定。",
+      "sha256": "3ba6faef0845b3a6dd0570fdc033a223d8a0278cf7157ad4343ad11bbfd269af",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "P-REF03",
+      "style": "rural",
+      "name": "自然河道与木栈道",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/P-REF03.jpg",
+      "pixel_size": [
+        749,
+        1200
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        2550,
+        130,
+        3430,
+        1540
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "河岸公园、滨水步道",
+      "rule": "借鉴水波、岸线、栈道材质；只在目标方案已有的滨水空间使用。",
+      "sha256": "6967250141e0df940ff5dd9aedf691ccdb20e668c72cedc89a77cea0a8c4aabc",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "P-REF04",
+      "style": "rural",
+      "name": "边缘淡化与图面装饰",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/P-REF04.jpg",
+      "pixel_size": [
+        920,
+        710
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        0,
+        0,
+        920,
+        710
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "汇报展板边缘",
+      "rule": "云雾、印章、鸟群属于可选展示效果，不计入场地实体丰富度。",
+      "sha256": "83306758b36a866e84bdac0eea49da196ebbdb433ec9b39c7bdfa8f84c14bd12",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "rural",
+        "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "R-G01",
+      "style": "residential",
+      "name": "住宅草坪肌理",
+      "category": "G",
+      "kind": "texture",
+      "file": "assets/R-G01.png",
+      "pixel_size": [
+        256,
+        256
+      ],
+      "source_index": [
+        18
+      ],
+      "source_layer_id": 132,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        3060,
+        2040,
+        3316,
+        2296
+      ],
+      "source_crop_canvas_px": [
+        3060,
+        2537,
+        3316,
+        2793
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "mul ",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "楼间草地、宅旁绿地、中央草坪",
+      "rule": "仅使用净纹理取样；目标空间以目标 CAD 蒙版重建。",
+      "sha256": "cd250ad4c1fc392130be4236fc8135f0705a8c583fca52bd545b98edb0c7f5ee",
+      "roles": [
+        "grass"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "InnerShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 86.0,
+          "angle": -137,
+          "distance": 3.0,
+          "size": 5.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 132,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-G02",
+      "style": "residential",
+      "name": "亮绿灌木地被肌理",
+      "category": "G",
+      "kind": "texture",
+      "file": "assets/R-G02.png",
+      "pixel_size": [
+        64,
+        64
+      ],
+      "source_index": [
+        29
+      ],
+      "source_layer_id": 162,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        528,
+        420,
+        592,
+        484
+      ],
+      "source_crop_canvas_px": [
+        4285,
+        2707,
+        4349,
+        2771
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "入口花池、景墙旁、庭院边缘",
+      "rule": "作为种植层次与重点节点，控制亮绿面积，避免全场同亮度。",
+      "sha256": "c52954249702f40464f89ec53761552d1db7c5a4401f056c90600f74a0fe466c",
+      "roles": [
+        "grass"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 162,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-W01",
+      "style": "residential",
+      "name": "庭院蓝色水面肌理",
+      "category": "W",
+      "kind": "texture",
+      "file": "assets/R-W01.png",
+      "pixel_size": [
+        192,
+        192
+      ],
+      "source_index": [
+        25
+      ],
+      "source_layer_id": 153,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        152,
+        38,
+        344,
+        230
+      ],
+      "source_crop_canvas_px": [
+        3851,
+        2419,
+        4043,
+        2611
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "中心水景、泳池、浅水景观",
+      "rule": "沿目标水景边界裁切，另设水岸高光和深水边缘层。",
+      "sha256": "c8dc565b28369e46adf744c11e9b64fcf30b7dd8a812c056517bfe824668a25f",
+      "roles": [
+        "water"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 153,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-P01",
+      "style": "residential",
+      "name": "米白石材铺装",
+      "category": "P",
+      "kind": "texture",
+      "file": "assets/R-P01.png",
+      "pixel_size": [
+        128,
+        128
+      ],
+      "source_index": [
+        24
+      ],
+      "source_layer_id": 140,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        50,
+        350,
+        178,
+        478
+      ],
+      "source_crop_canvas_px": [
+        3555,
+        2645,
+        3683,
+        2773
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "会客庭院、泳池周边、宅间节点",
+      "rule": "以目标场地重建几何；小样非无缝，拼接后检查颗粒与重复。",
+      "sha256": "8ae44c68f3375e29ca3299f4f545b09d8ed1778206b9d7f5c2f83da073724123",
+      "roles": [
+        "paving"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "InnerShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 75.0,
+          "angle": -137,
+          "distance": 3.0,
+          "size": 3.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        },
+        {
+          "type": "ColorOverlay",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 5.0,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 140,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-P02",
+      "style": "residential",
+      "name": "灰色颗粒铺装",
+      "category": "P",
+      "kind": "texture",
+      "file": "assets/R-P02.png",
+      "pixel_size": [
+        64,
+        64
+      ],
+      "source_index": [
+        22
+      ],
+      "source_layer_id": 159,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        696,
+        24,
+        760,
+        88
+      ],
+      "source_crop_canvas_px": [
+        4255,
+        2198,
+        4319,
+        2262
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "休闲平台、铺装嵌条、小块硬地",
+      "rule": "原有效纹理较窄，只作局部取样；大面积使用前检查清晰度。",
+      "sha256": "481c51b08a004b055973a7d67fe420868c792f34b8dbde038256e72121b2aabe",
+      "roles": [
+        "paving"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "PatternOverlay",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 85.0,
+          "angle": 0.0,
+          "blend_mode": "Nrml",
+          "pattern_resource_id": "85ac075f-9728-11e5-a572-92ac11040dbd"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 159,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-T01",
+      "style": "residential",
+      "name": "深绿双株乔木组合",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/R-T01.png",
+      "pixel_size": [
+        296,
+        158
+      ],
+      "source_index": [
+        42
+      ],
+      "source_layer_id": 33,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        6362,
+        3042,
+        6658,
+        3200
+      ],
+      "source_crop_canvas_px": [
+        6619,
+        3736,
+        6915,
+        3894
+      ],
+      "source_opacity_pct": 54.9,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "宅间组团、道路林荫、庭院背景；秋色树用于局部点景",
+      "rule": "保持源树冠细节和柔和树影；遵循图层源透明度起调，色调与光向统一。",
+      "sha256": "6922aca4805784d4ed73f951e88966031b8ae1cb3663c6f0bb44a20f2aa8d500",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": 2,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 54.9,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 90.0,
+          "angle": -137,
+          "distance": 71.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 33,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-T02",
+      "style": "residential",
+      "name": "中绿三株乔木组合",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/R-T02.png",
+      "pixel_size": [
+        238,
+        239
+      ],
+      "source_index": [
+        40
+      ],
+      "source_layer_id": 32,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        2878,
+        1519,
+        3116,
+        1758
+      ],
+      "source_crop_canvas_px": [
+        3097,
+        2062,
+        3335,
+        2301
+      ],
+      "source_opacity_pct": 50.2,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "宅间组团、道路林荫、庭院背景；秋色树用于局部点景",
+      "rule": "保持源树冠细节和柔和树影；遵循图层源透明度起调，色调与光向统一。",
+      "sha256": "471031f89870c8f6cecdf181b0b6296f129628243a798aa082840c0cec09dfa2",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": 3,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 50.2,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 95.0,
+          "angle": -137,
+          "distance": 50.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 32,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-T03",
+      "style": "residential",
+      "name": "浅中绿三株乔木组合",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/R-T03.png",
+      "pixel_size": [
+        249,
+        233
+      ],
+      "source_index": [
+        40
+      ],
+      "source_layer_id": 32,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        4997,
+        3029,
+        5246,
+        3262
+      ],
+      "source_crop_canvas_px": [
+        5216,
+        3572,
+        5465,
+        3805
+      ],
+      "source_opacity_pct": 50.2,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "宅间组团、道路林荫、庭院背景；秋色树用于局部点景",
+      "rule": "保持源树冠细节和柔和树影；遵循图层源透明度起调，色调与光向统一。",
+      "sha256": "df09b6333402a102fbae46123d602a298e6386540052d4a3090b98a8fa24c4c3",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": 3,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 50.2,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 95.0,
+          "angle": -137,
+          "distance": 50.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 32,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-T04",
+      "style": "residential",
+      "name": "浅绿单株树冠",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/R-T04.png",
+      "pixel_size": [
+        118,
+        118
+      ],
+      "source_index": [
+        41
+      ],
+      "source_layer_id": 36,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        4656,
+        426,
+        4774,
+        544
+      ],
+      "source_crop_canvas_px": [
+        4989,
+        1353,
+        5107,
+        1471
+      ],
+      "source_opacity_pct": 80.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "宅间组团、道路林荫、庭院背景；秋色树用于局部点景",
+      "rule": "保持源树冠细节和柔和树影；遵循图层源透明度起调，色调与光向统一。",
+      "sha256": "fc4b11d01bc3dbde82615200f51f9fe31d5df58fc6f3da958bdb3871cf59df7f",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 80.0,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 66.0,
+          "angle": -137,
+          "distance": 40.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 36,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-T05",
+      "style": "residential",
+      "name": "秋色点景单株乔木",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/R-T05.png",
+      "pixel_size": [
+        142,
+        144
+      ],
+      "source_index": [
+        43
+      ],
+      "source_layer_id": 35,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        2217,
+        315,
+        2359,
+        459
+      ],
+      "source_crop_canvas_px": [
+        2483,
+        1674,
+        2625,
+        1818
+      ],
+      "source_opacity_pct": 70.2,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "宅间组团、道路林荫、庭院背景；秋色树用于局部点景",
+      "rule": "保持源树冠细节和柔和树影；遵循图层源透明度起调，色调与光向统一。",
+      "sha256": "d9811e180115b63706598ace1215addee1f41fe21571d8a959906e1acb1159cd",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 70.2,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 70.0,
+          "angle": -137,
+          "distance": 55.0,
+          "size": 1.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 35,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-T06",
+      "style": "residential",
+      "name": "小冠三株树组",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/R-T06.png",
+      "pixel_size": [
+        206,
+        107
+      ],
+      "source_index": [
+        39
+      ],
+      "source_layer_id": 34,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        1803,
+        3114,
+        2009,
+        3221
+      ],
+      "source_crop_canvas_px": [
+        2024,
+        3686,
+        2230,
+        3793
+      ],
+      "source_opacity_pct": 70.2,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "宅间组团、道路林荫、庭院背景；秋色树用于局部点景",
+      "rule": "保持源树冠细节和柔和树影；遵循图层源透明度起调，色调与光向统一。",
+      "sha256": "e2fcd7b2c32dd2b59280f6e5fca6d33292146889748cdb7c18ba3b7f14736daf",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": 3,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 70.2,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 75.0,
+          "angle": -137,
+          "distance": 27.0,
+          "size": 5.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 34,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-T07",
+      "style": "residential",
+      "name": "深绿单株乔木",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/R-T07.png",
+      "pixel_size": [
+        158,
+        162
+      ],
+      "source_index": [
+        42
+      ],
+      "source_layer_id": 33,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        2969,
+        2457,
+        3127,
+        2619
+      ],
+      "source_crop_canvas_px": [
+        3226,
+        3151,
+        3384,
+        3313
+      ],
+      "source_opacity_pct": 54.9,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "连续行道树、宅间组团补点",
+      "rule": "按单株冠幅缩放，与深绿双株树组搭配；光向统一。",
+      "sha256": "cc24667a16b5a61563c28424afc8a0e59d57e3c75819673819327de1dd4f651c",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 54.9,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 90.0,
+          "angle": -137,
+          "distance": 71.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 33,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-T08",
+      "style": "residential",
+      "name": "中绿单株乔木",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/R-T08.png",
+      "pixel_size": [
+        135,
+        135
+      ],
+      "source_index": [
+        40
+      ],
+      "source_layer_id": 32,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        4544,
+        373,
+        4679,
+        508
+      ],
+      "source_crop_canvas_px": [
+        4763,
+        916,
+        4898,
+        1051
+      ],
+      "source_opacity_pct": 50.2,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "宅前、步道旁、林缘疏密过渡",
+      "rule": "用单株与三株组打散重复节奏；调整源图 50.2% 透明度。",
+      "sha256": "1bd737ade65287894cf757ddd3413768b1b043ebe3d9670abaf05c62057577b3",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 50.2,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 95.0,
+          "angle": -137,
+          "distance": 50.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 32,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-F01",
+      "style": "residential",
+      "name": "庭院遮阳伞",
+      "category": "F",
+      "kind": "symbol",
+      "file": "assets/R-F01.png",
+      "pixel_size": [
+        68,
+        73
+      ],
+      "source_index": [
+        38
+      ],
+      "source_layer_id": 166,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        782,
+        14,
+        850,
+        87
+      ],
+      "source_crop_canvas_px": [
+        4388,
+        2191,
+        4456,
+        2264
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "有休憩需求的庭院、泳池外场",
+      "rule": "按目标方案布置座椅节点；保持通行面完整。",
+      "sha256": "69bbe56229a2b1d37cc1ee9c42fac92ab27ca0fbe044cd6d45a09c7eec209658",
+      "roles": [
+        "furniture"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 65.0,
+          "angle": -137,
+          "distance": 17.0,
+          "size": 2.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        },
+        {
+          "type": "ColorOverlay",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 8.0,
+          "blend_mode": "Nrml"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 166,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-F02",
+      "style": "residential",
+      "name": "休闲躺椅组",
+      "category": "F",
+      "kind": "symbol",
+      "file": "assets/R-F02.png",
+      "pixel_size": [
+        129,
+        165
+      ],
+      "source_index": [
+        37
+      ],
+      "source_layer_id": 164,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        0,
+        0,
+        129,
+        165
+      ],
+      "source_crop_canvas_px": [
+        4672,
+        2327,
+        4801,
+        2492
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "泳池边、度假式休憩平台",
+      "rule": "按实际功能使用；源像素较小，需检查最终图面清晰度。",
+      "sha256": "bc87985500cf9a597cba88bb5ab16bd035944a35f4e1e46e722c3f3ab1ea9c64",
+      "roles": [
+        "furniture"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 164,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-V01",
+      "style": "residential",
+      "name": "场地车辆",
+      "category": "V",
+      "kind": "symbol",
+      "file": "assets/R-V01.png",
+      "pixel_size": [
+        77,
+        94
+      ],
+      "source_index": [
+        36
+      ],
+      "source_layer_id": 163,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        1129,
+        262,
+        1206,
+        356
+      ],
+      "source_crop_canvas_px": [
+        2096,
+        812,
+        2173,
+        906
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "目标道路、明确的停车位",
+      "rule": "沿车道方向摆放；车长以目标图面尺度校准。",
+      "sha256": "334d03704c7521bd2abefefb72fdf29b878cd0e5f652aa92120c503f7d520460",
+      "roles": [
+        "vehicle"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 163,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-H01",
+      "style": "residential",
+      "name": "俯视人物组合",
+      "category": "H",
+      "kind": "symbol",
+      "file": "assets/R-H01.png",
+      "pixel_size": [
+        55,
+        71
+      ],
+      "source_index": [
+        44
+      ],
+      "source_layer_id": 52,
+      "source_layer_path": "【知设网独家分享】www.zhishew.com",
+      "source_crop_local_px": [
+        2199,
+        1531,
+        2254,
+        1602
+      ],
+      "source_crop_canvas_px": [
+        3329,
+        2035,
+        3384,
+        2106
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "广场、庭院、休闲步道",
+      "rule": "小比例尺活动示意；保持人在步行空间内，作为低密度配景。",
+      "sha256": "61f900de705196142d0eea46e8448b5b337ff84b5afce636a7b1d1f69b44f67f",
+      "roles": [
+        "person"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "residential",
+        "layer_id": 52,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "R-REF01",
+      "style": "residential",
+      "name": "宅间草地与乔木层次",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/R-REF01.jpg",
+      "pixel_size": [
+        1600,
+        623
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        1150,
+        1310,
+        3460,
+        2210
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "住宅楼间、宅前宅后",
+      "rule": "草地纹理、乔木、灌木/地被、步道、建筑投影共同形成丰富度。",
+      "sha256": "67907cdf1c5b8b172b8b5c162213479ff5704c4caf9783607c71375dc51392d2",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "R-REF02",
+      "style": "residential",
+      "name": "水景会客庭院",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/R-REF02.jpg",
+      "pixel_size": [
+        1600,
+        771
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        3370,
+        1920,
+        5320,
+        2860
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "中心庭院、入口轴线节点",
+      "rule": "借鉴水面、池岸、铺装、绿岛、遮阳伞及坐席组合；形状按目标方案重建。",
+      "sha256": "39b9fe9262a0004e331e71382a9ad1077086306295d729d3b8320a33af1ce679",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "R-REF03",
+      "style": "residential",
+      "name": "停车与宅间道路",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/R-REF03.jpg",
+      "pixel_size": [
+        1600,
+        392
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        960,
+        2610,
+        3610,
+        3260
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "住宅内部路网、停车带",
+      "rule": "停车线、路缘、树带与铺装材质形成尺度；以项目道路几何为准。",
+      "sha256": "0ac281434569ce05bb9ed7504d3daea612875c8e06f7b29f947dec060de7cac1",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "R-REF04",
+      "style": "residential",
+      "name": "住宅屋面与建筑投影",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/R-REF04.jpg",
+      "pixel_size": [
+        1600,
+        629
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        1110,
+        610,
+        3500,
+        1550
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "住宅建筑区",
+      "rule": "建筑轮廓、屋面细节、檐口与投影分层；不复制源建筑平面或楼号。",
+      "sha256": "b8fed5da513b4b4f0908eb23468d71461e6f7f57f83388fca3dadea87b6d7847",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "R-REF05",
+      "style": "residential",
+      "name": "住宅滨水公园过渡",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/R-REF05.jpg",
+      "pixel_size": [
+        770,
+        1200
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        7610,
+        710,
+        9670,
+        3920
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "住宅配套公园、外侧滨水带",
+      "rule": "降低外围对比度，保留连续步道和开放草坪；主体与背景分级。",
+      "sha256": "8f4a1cce8b7996af432980acd49b8def6317ed03612327ad7774f9962102011d",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "residential",
+        "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "M-G01",
+      "style": "landscape",
+      "name": "细颗粒草地基底",
+      "category": "G",
+      "kind": "texture",
+      "file": "assets/M-G01.png",
+      "pixel_size": [
+        512,
+        512
+      ],
+      "source_index": [
+        2
+      ],
+      "source_layer_id": 288,
+      "source_layer_path": "图层 36",
+      "source_crop_local_px": [
+        1428,
+        1428,
+        1940,
+        1940
+      ],
+      "source_crop_canvas_px": [
+        1428,
+        1428,
+        1940,
+        1940
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": true,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "现代公园草坡、开放绿地",
+      "rule": "以目标绿地蒙版剪贴，再用 M-G02 增加自然明暗。",
+      "sha256": "9aa730bb4957827fdd04129a3b781ce662920d263266782261d7cd53a5f4a598",
+      "roles": [
+        "grass"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "landscape",
+        "layer_id": 288,
+        "clipping_base_layer_id": 18,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "M-G02",
+      "style": "landscape",
+      "name": "自然草地叠加肌理",
+      "category": "G",
+      "kind": "texture",
+      "file": "assets/M-G02.png",
+      "pixel_size": [
+        512,
+        512
+      ],
+      "source_index": [
+        3
+      ],
+      "source_layer_id": 289,
+      "source_layer_path": "图层 37",
+      "source_crop_local_px": [
+        1224,
+        1428,
+        1736,
+        1940
+      ],
+      "source_crop_canvas_px": [
+        1224,
+        1428,
+        1736,
+        1940
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "over",
+      "source_mask": false,
+      "source_clipping": true,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "地形绿地、林缘、坡面",
+      "rule": "源图为叠加 100% 剪贴层；需有 M-G01 或统一草地底色。",
+      "sha256": "b13a89d7ef4f1e75cf644bba08848e4c79af7ed9ecb1c43e6ecc2702f9379a0b",
+      "roles": [
+        "grass"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 32.941,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "landscape",
+        "layer_id": 289,
+        "clipping_base_layer_id": 18,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "M-P01",
+      "style": "landscape",
+      "name": "浅灰条石铺装",
+      "category": "P",
+      "kind": "texture",
+      "file": "assets/M-P01.png",
+      "pixel_size": [
+        256,
+        256
+      ],
+      "source_index": [
+        8
+      ],
+      "source_layer_id": 66,
+      "source_layer_path": "图层 12",
+      "source_crop_local_px": [
+        306,
+        255,
+        562,
+        511
+      ],
+      "source_crop_canvas_px": [
+        871,
+        1544,
+        1127,
+        1800
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": true,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "台阶平台、亲水节点",
+      "rule": "原层含原项目蒙版，取样不带蒙版；按目标铺装方向控制缝线。",
+      "sha256": "b84b48ba315932ce6b76545023a4802c69962337773c594bfa6b0a3f74d908b8",
+      "roles": [
+        "paving"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "Stroke",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 100.0,
+          "angle": 0.0,
+          "size": 4.0,
+          "blend_mode": "Nrml"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "landscape",
+        "layer_id": 66,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "M-P02",
+      "style": "landscape",
+      "name": "暖褐斑驳铺装",
+      "category": "P",
+      "kind": "texture",
+      "file": "assets/M-P02.png",
+      "pixel_size": [
+        64,
+        64
+      ],
+      "source_index": [
+        10
+      ],
+      "source_layer_id": 47,
+      "source_layer_path": "图层 3",
+      "source_crop_local_px": [
+        60,
+        288,
+        124,
+        352
+      ],
+      "source_crop_canvas_px": [
+        1059,
+        802,
+        1123,
+        866
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "曲线步道的重点嵌带、转折节点",
+      "rule": "小面积使用；不照搬源步道轮廓。",
+      "sha256": "442eb470a79127fe6afdb5c83fd392cb5dbbbb59b9c2c5739ccdf25aae70d029",
+      "roles": [
+        "paving"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "landscape",
+        "layer_id": 47,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "M-W01",
+      "style": "landscape",
+      "name": "蓝绿斑驳水面",
+      "category": "W",
+      "kind": "texture",
+      "file": "assets/M-W01.png",
+      "pixel_size": [
+        512,
+        512
+      ],
+      "source_index": [
+        14
+      ],
+      "source_layer_id": 294,
+      "source_layer_path": "图层 39",
+      "source_crop_local_px": [
+        612,
+        714,
+        1124,
+        1226
+      ],
+      "source_crop_canvas_px": [
+        751,
+        1942,
+        1263,
+        2454
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": true,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "景观水池、线性水景、曲线水岸",
+      "rule": "源为剪贴层，叠于蓝绿色水域底色；池岸单独建立。",
+      "sha256": "6ba446c6b2a7197f964a9a3eff1ae2e2de56a06437f6310bbc0252629b0b9590",
+      "roles": [
+        "water"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "landscape",
+        "layer_id": 294,
+        "clipping_base_layer_id": 55,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "M-D01",
+      "style": "landscape",
+      "name": "棕灰细木板",
+      "category": "D",
+      "kind": "texture",
+      "file": "assets/M-D01.png",
+      "pixel_size": [
+        512,
+        512
+      ],
+      "source_index": [
+        17
+      ],
+      "source_layer_id": 63,
+      "source_layer_path": "图层 10",
+      "source_crop_local_px": [
+        306,
+        204,
+        818,
+        716
+      ],
+      "source_crop_canvas_px": [
+        1913,
+        1966,
+        2425,
+        2478
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": true,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "木平台、亲水看台",
+      "rule": "源素材经过旋转；纹理不保证无缝，按目标板缝方向调整。",
+      "sha256": "86987634a14db31143654ee14ad508a5bf4db59f930e6e8cc89dbe9e8006bdae",
+      "roles": [
+        "wood"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "landscape",
+        "layer_id": 63,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "M-T01",
+      "style": "landscape",
+      "name": "中绿轻盈乔木",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/M-T01.png",
+      "pixel_size": [
+        256,
+        280
+      ],
+      "source_index": [
+        39
+      ],
+      "source_layer_id": 296,
+      "source_layer_path": "图层 41",
+      "source_crop_local_px": [
+        1022,
+        1122,
+        1278,
+        1402
+      ],
+      "source_crop_canvas_px": [
+        1184,
+        1780,
+        1440,
+        2060
+      ],
+      "source_opacity_pct": 63.1,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "现代公园林缘、坡地、小树组",
+      "rule": "源不透明度 63.1%；透明边缘保留，树影另按目标光向。",
+      "sha256": "f983a88c651cab4a520eb79ef118599a1b9c82718d07d7a1ffdff0d93018e725",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 63.1,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 45.0,
+          "angle": -149,
+          "distance": 47.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "landscape",
+        "layer_id": 296,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "M-T02",
+      "style": "landscape",
+      "name": "金黄疏透乔木",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/M-T02.png",
+      "pixel_size": [
+        277,
+        259
+      ],
+      "source_index": [
+        40
+      ],
+      "source_layer_id": 295,
+      "source_layer_path": "图层 40",
+      "source_crop_local_px": [
+        1116,
+        539,
+        1393,
+        798
+      ],
+      "source_crop_canvas_px": [
+        1737,
+        1525,
+        2014,
+        1784
+      ],
+      "source_opacity_pct": 76.9,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "开放草坡、浅色铺装旁",
+      "rule": "源不透明度 76.9%；树冠疏透，避免叠加过密。",
+      "sha256": "5da6e1c0bb67d6110287d60bf25536a98d63b1d0a0a331bb1012c3c1abc069b5",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 76.9,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 45.0,
+          "angle": -149,
+          "distance": 89.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "landscape",
+        "layer_id": 295,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "M-T03",
+      "style": "landscape",
+      "name": "黄绿圆冠乔木",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/M-T03.png",
+      "pixel_size": [
+        444,
+        422
+      ],
+      "source_index": [
+        41
+      ],
+      "source_layer_id": 291,
+      "source_layer_path": "图层 38",
+      "source_crop_local_px": [
+        204,
+        826,
+        648,
+        1248
+      ],
+      "source_crop_canvas_px": [
+        761,
+        1169,
+        1205,
+        1591
+      ],
+      "source_opacity_pct": 78.8,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "现代景观主体树组、入口点树",
+      "rule": "源不透明度 78.8%；与 M-T01 和 M-T02 形成层次。",
+      "sha256": "694d8048ae61e44c8079f89b2cf445b20e651fc92fa526f271998947c1a220d1",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 78.8,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 45.0,
+          "angle": -149,
+          "distance": 124.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "landscape",
+        "layer_id": 291,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "M-T04",
+      "style": "landscape",
+      "name": "粉白花树冠",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/M-T04.png",
+      "pixel_size": [
+        343,
+        364
+      ],
+      "source_index": [
+        42
+      ],
+      "source_layer_id": 300,
+      "source_layer_path": "图层 42",
+      "source_crop_local_px": [
+        0,
+        0,
+        343,
+        364
+      ],
+      "source_crop_canvas_px": [
+        1304,
+        1429,
+        1647,
+        1793
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "重点转折、入口小节点",
+      "rule": "按表现需要局部点景；颜色不作为真实树种确认。",
+      "sha256": "7caea026eecef82525a9ff6773ebadc9ad46624e37efac4cf1511287f27a26c7",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "landscape",
+        "layer_id": 300,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "M-H01",
+      "style": "landscape",
+      "name": "俯视步行人物",
+      "category": "H",
+      "kind": "symbol",
+      "file": "assets/M-H01.png",
+      "pixel_size": [
+        30,
+        40
+      ],
+      "source_index": [
+        25
+      ],
+      "source_layer_id": 102,
+      "source_layer_path": "图层 15",
+      "source_crop_local_px": [
+        0,
+        0,
+        30,
+        40
+      ],
+      "source_crop_canvas_px": [
+        1321,
+        1442,
+        1351,
+        1482
+      ],
+      "source_opacity_pct": 70.2,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "现代景观步道、平台",
+      "rule": "30×40 px，小比例尺配景；源不透明度 70.2%。",
+      "sha256": "2a131d00f0353a5253f6f00c0a387f41c06c8a21981a76fa28ec6989547a2c2d",
+      "roles": [
+        "person"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 70.2,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "landscape",
+        "layer_id": 102,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "M-H02",
+      "style": "landscape",
+      "name": "俯视活动人物",
+      "category": "H",
+      "kind": "symbol",
+      "file": "assets/M-H02.png",
+      "pixel_size": [
+        52,
+        49
+      ],
+      "source_index": [
+        26
+      ],
+      "source_layer_id": 104,
+      "source_layer_path": "图层 16",
+      "source_crop_local_px": [
+        0,
+        0,
+        52,
+        49
+      ],
+      "source_crop_canvas_px": [
+        1732,
+        1862,
+        1784,
+        1911
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "休憩平台、草坪边缘",
+      "rule": "按目标活动空间摆放，保留通道。",
+      "sha256": "133c41069b76e026f94e62d519c42e3768f2be5750072987a2799972ea78ed76",
+      "roles": [
+        "person"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": false,
+          "opacity": 48.0,
+          "angle": -149,
+          "distance": 11.0,
+          "size": 2.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "landscape",
+        "layer_id": 104,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "M-V01",
+      "style": "landscape",
+      "name": "深灰车辆",
+      "category": "V",
+      "kind": "symbol",
+      "file": "assets/M-V01.png",
+      "pixel_size": [
+        88,
+        170
+      ],
+      "source_index": [
+        32
+      ],
+      "source_layer_id": 239,
+      "source_layer_path": "图层 25 副本",
+      "source_crop_local_px": [
+        0,
+        0,
+        88,
+        170
+      ],
+      "source_crop_canvas_px": [
+        2356,
+        1022,
+        2444,
+        1192
+      ],
+      "source_opacity_pct": 50.2,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "场地外围道路、停车位",
+      "rule": "源不透明度 50.2%；以目标车位尺度校准。",
+      "sha256": "db2f2667abd4152b5a3105ce2023fa9ad72fdc47e31f2eef19b733138cf78ebd",
+      "roles": [
+        "vehicle"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 50.2,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 75.0,
+          "angle": -149,
+          "distance": 16.0,
+          "size": 4.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "landscape",
+        "layer_id": 239,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "M-S01",
+      "style": "landscape",
+      "name": "白色喷水水花",
+      "category": "S",
+      "kind": "symbol",
+      "file": "assets/M-S01.png",
+      "pixel_size": [
+        70,
+        70
+      ],
+      "source_index": [
+        15
+      ],
+      "source_layer_id": 70,
+      "source_layer_path": "图层 14",
+      "source_crop_local_px": [
+        129,
+        94,
+        199,
+        164
+      ],
+      "source_crop_canvas_px": [
+        929,
+        1813,
+        999,
+        1883
+      ],
+      "source_opacity_pct": 70.2,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "方案已有的浅水喷泉",
+      "rule": "仅用于明确有喷泉的水景；源不透明度 70.2%。",
+      "sha256": "490daeacfb4f8da264b9303e0db89af290e29d24888ad9b802b2062a5b20d944",
+      "roles": [
+        "water_detail"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 70.2,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 56.0,
+          "angle": -149,
+          "distance": 23.0,
+          "size": 4.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "landscape",
+        "layer_id": 70,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "M-REF01",
+      "style": "landscape",
+      "name": "曲线步道与草坡层次",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/M-REF01.jpg",
+      "pixel_size": [
+        1356,
+        1200
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        670,
+        470,
+        2320,
+        1930
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "现代曲线公园、建筑外场",
+      "rule": "草地双重肌理、浅色带状铺装、乔木与细线共同构成；等高线用目标资料。",
+      "sha256": "4bd0088a2a8c67932688077d375146b511696b2078e082796cbea1d740fa75e2",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "M-REF02",
+      "style": "landscape",
+      "name": "水景台阶与花树节点",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/M-REF02.jpg",
+      "pixel_size": [
+        1268,
+        1200
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        800,
+        1410,
+        2100,
+        2640
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "重点水景、亲水平台",
+      "rule": "借鉴水岸、台阶、木平台、花树、水花与人物；是否设喷泉由目标设计决定。",
+      "sha256": "f40f860fdadb29fceed8c73e0419a204214c0d53a31346db4bd76671c9d664e5",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "M-REF03",
+      "style": "landscape",
+      "name": "景观边缘与背景淡化",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/M-REF03.jpg",
+      "pixel_size": [
+        746,
+        1200
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        1790,
+        1280,
+        2810,
+        2920
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "主体与外侧道路过渡",
+      "rule": "边缘柔化放在展示组，保留完整场地范围和主入口。",
+      "sha256": "0557145c2be51fe358254fdec602e5abed462d5086e78bc9e084803ed127048e",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "landscape",
+        "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "U-G01",
+      "style": "park",
+      "name": "城市公园细草地",
+      "category": "G",
+      "kind": "texture",
+      "file": "assets/U-G01.png",
+      "pixel_size": [
+        384,
+        384
+      ],
+      "source_index": [
+        1
+      ],
+      "source_layer_id": 12,
+      "source_layer_path": "lawn",
+      "source_crop_local_px": [
+        76,
+        456,
+        460,
+        840
+      ],
+      "source_crop_canvas_px": [
+        690,
+        2799,
+        1074,
+        3183
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "活动草坪、城市口袋公园",
+      "rule": "与 U-G02 叠加形成草地层次，保持活动开敞面。",
+      "sha256": "f83d295aab69a3d10e1881d4b1d350ffd294d93818bd35ffd3f481e06fdc782b",
+      "roles": [
+        "grass"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 12,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "U-G02",
+      "style": "park",
+      "name": "明暗草坪肌理",
+      "category": "G",
+      "kind": "texture",
+      "file": "assets/U-G02.png",
+      "pixel_size": [
+        384,
+        384
+      ],
+      "source_index": [
+        4
+      ],
+      "source_layer_id": 34,
+      "source_layer_path": "real_lawn",
+      "source_crop_local_px": [
+        76,
+        304,
+        460,
+        688
+      ],
+      "source_crop_canvas_px": [
+        690,
+        2647,
+        1074,
+        3031
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "开敞草坪、林缘",
+      "rule": "源图整层覆盖；按目标草地控制明暗，不复制原草坪形状。",
+      "sha256": "fdf4e0c2144369fb608687a4ab4282c7978c7393cc439523a33b715d34bb672f",
+      "roles": [
+        "grass"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 65.098,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 34,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "U-B01",
+      "style": "park",
+      "name": "黄绿花境肌理",
+      "category": "B",
+      "kind": "texture",
+      "file": "assets/U-B01.png",
+      "pixel_size": [
+        64,
+        64
+      ],
+      "source_index": [
+        56
+      ],
+      "source_layer_id": 54,
+      "source_layer_path": "flower_all",
+      "source_crop_local_px": [
+        564,
+        600,
+        628,
+        664
+      ],
+      "source_crop_canvas_px": [
+        1571,
+        2753,
+        1635,
+        2817
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "步道边、花园节点",
+      "rule": "裁入目标种植带，纹理只作图面表现，不表示花卉品种。",
+      "sha256": "ab8ed2e35c5b764ecbcb77ed552c4bbe7ecc689e2c4ddd7e35f4708e38ea9ab4",
+      "roles": [
+        "planting"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 54,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "U-B02",
+      "style": "park",
+      "name": "粉色混合花境肌理",
+      "category": "B",
+      "kind": "texture",
+      "file": "assets/U-B02.png",
+      "pixel_size": [
+        96,
+        96
+      ],
+      "source_index": [
+        57
+      ],
+      "source_layer_id": 55,
+      "source_layer_path": "flower",
+      "source_crop_local_px": [
+        551,
+        1045,
+        647,
+        1141
+      ],
+      "source_crop_canvas_px": [
+        1124,
+        3480,
+        1220,
+        3576
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "入口、特色花园与观赏带",
+      "rule": "作为局部色彩层；避免和主体草地等面积使用。",
+      "sha256": "6b65629d2fd758960bf236080578297ce521cc22a7dcfb6756569cd11548ae42",
+      "roles": [
+        "planting"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 55,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "U-B03",
+      "style": "park",
+      "name": "深绿地被肌理",
+      "category": "B",
+      "kind": "texture",
+      "file": "assets/U-B03.png",
+      "pixel_size": [
+        64,
+        64
+      ],
+      "source_index": [
+        58
+      ],
+      "source_layer_id": 50,
+      "source_layer_path": "groundcover",
+      "source_crop_local_px": [
+        492,
+        2412,
+        556,
+        2476
+      ],
+      "source_crop_canvas_px": [
+        1077,
+        3573,
+        1141,
+        3637
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "花境背景、树下、窄种植带",
+      "rule": "小样用于局部；大面拼铺前检查接缝。",
+      "sha256": "512561b515140cbc70e0763441e9f8861f23f0cce20ff2fb36785f94caeebee4",
+      "roles": [
+        "planting"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 50,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "U-P01",
+      "style": "park",
+      "name": "浅米色步道铺装",
+      "category": "P",
+      "kind": "texture",
+      "file": "assets/U-P01.png",
+      "pixel_size": [
+        128,
+        128
+      ],
+      "source_index": [
+        17
+      ],
+      "source_layer_id": 23,
+      "source_layer_path": "pave_path",
+      "source_crop_local_px": [
+        375,
+        2175,
+        503,
+        2303
+      ],
+      "source_crop_canvas_px": [
+        827,
+        2238,
+        955,
+        2366
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "园路、入口、广场边缘",
+      "rule": "按目标路网组织方向与块材尺度。",
+      "sha256": "3ba0542aa2f55d65eeef1477d76fd2f8de71244eeba3ed415cf94ca2fce775d0",
+      "roles": [
+        "paving"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 45.098,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 23,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "U-P02",
+      "style": "park",
+      "name": "暖灰拼石广场",
+      "category": "P",
+      "kind": "texture",
+      "file": "assets/U-P02.png",
+      "pixel_size": [
+        256,
+        256
+      ],
+      "source_index": [
+        30
+      ],
+      "source_layer_id": 159,
+      "source_layer_path": "pave_plaza_f",
+      "source_crop_local_px": [
+        357,
+        459,
+        613,
+        715
+      ],
+      "source_crop_canvas_px": [
+        988,
+        1649,
+        1244,
+        1905
+      ],
+      "source_opacity_pct": 62.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "活动广场、会客外场",
+      "rule": "源不透明度 62%；叠于浅暖底色，保持图案尺度统一。",
+      "sha256": "03d4f96240bb029d15619fb849c87bdbc004be9c6a7d8e7573186a9a2b57d8b8",
+      "roles": [
+        "paving"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 62.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 159,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "U-P03",
+      "style": "park",
+      "name": "深灰碎石颗粒",
+      "category": "P",
+      "kind": "texture",
+      "file": "assets/U-P03.png",
+      "pixel_size": [
+        64,
+        64
+      ],
+      "source_index": [
+        14
+      ],
+      "source_layer_id": 29,
+      "source_layer_path": "gravel",
+      "source_crop_local_px": [
+        408,
+        72,
+        472,
+        136
+      ],
+      "source_crop_canvas_px": [
+        961,
+        1223,
+        1025,
+        1287
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "over",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": false,
+      "use": "景观嵌带、排水或种植过渡带",
+      "rule": "源为叠加 100%，必须有对应底色；小样只做局部。",
+      "sha256": "6c82cbe3320b91074a64895dea25ab76b119e6eda0db74b50003473bf7d176fd",
+      "roles": [
+        "paving"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 32.157,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 29,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "U-T01",
+      "style": "park",
+      "name": "中深绿密叶乔木",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/U-T01.png",
+      "pixel_size": [
+        267,
+        262
+      ],
+      "source_index": [
+        69,
+        0
+      ],
+      "source_layer_id": 112,
+      "source_layer_path": "big_tree/Layer 20 copy 9",
+      "source_crop_local_px": [
+        0,
+        0,
+        267,
+        262
+      ],
+      "source_crop_canvas_px": [
+        449,
+        1930,
+        716,
+        2192
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "城市公园林荫、广场树阵",
+      "rule": "源树影来自图层效果，导出 PNG 不含效果；另建统一投影。",
+      "sha256": "b1e5cd3daabdce60a578fc3d2063b867c63d0a2641c08e000898c115f7b876cc",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 50.0,
+          "angle": -133,
+          "distance": 50.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 165,
+          "name": "big_tree",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 70.196,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 112,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          165
+        ]
+      }
+    },
+    {
+      "id": "U-T02",
+      "style": "park",
+      "name": "黄绿密叶乔木",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/U-T02.png",
+      "pixel_size": [
+        258,
+        252
+      ],
+      "source_index": [
+        69,
+        24
+      ],
+      "source_layer_id": 125,
+      "source_layer_path": "big_tree/Layer 20 copy 19",
+      "source_crop_local_px": [
+        0,
+        0,
+        258,
+        252
+      ],
+      "source_crop_canvas_px": [
+        1476,
+        3003,
+        1734,
+        3255
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "林缘、节点点树",
+      "rule": "与 U-T01 做深浅变化；源图是同一树冠的变体，避免重复阵列。",
+      "sha256": "879d60c7881ae57c51c3058eaf42539dc3faf07b91f1e4b40a406472905d39b1",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 45.0,
+          "angle": -133,
+          "distance": 55.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 165,
+          "name": "big_tree",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 70.196,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 125,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          165
+        ]
+      }
+    },
+    {
+      "id": "U-T03",
+      "style": "park",
+      "name": "浅中绿密叶乔木",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/U-T03.png",
+      "pixel_size": [
+        325,
+        318
+      ],
+      "source_index": [
+        69,
+        18
+      ],
+      "source_layer_id": 116,
+      "source_layer_path": "big_tree/Layer 20 copy 11",
+      "source_crop_local_px": [
+        0,
+        0,
+        325,
+        318
+      ],
+      "source_crop_canvas_px": [
+        663,
+        2380,
+        988,
+        2698
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "草坪树组、广场边缘",
+      "rule": "源树影不在 PNG 中；与其他冠形搭配减少同形重复。",
+      "sha256": "cb1832cda20b6445b4443bdc31b3baaed137c91627c790de6d9984c5e4dcd9f5",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 45.0,
+          "angle": -133,
+          "distance": 55.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 165,
+          "name": "big_tree",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 74.118,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 116,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          165
+        ]
+      }
+    },
+    {
+      "id": "U-T04",
+      "style": "park",
+      "name": "浅绿行道树冠",
+      "category": "T",
+      "kind": "symbol",
+      "file": "assets/U-T04.png",
+      "pixel_size": [
+        174,
+        179
+      ],
+      "source_index": [
+        68,
+        0
+      ],
+      "source_layer_id": 86,
+      "source_layer_path": "street_tree/s_tree_in",
+      "source_crop_local_px": [
+        1243,
+        1187,
+        1417,
+        1366
+      ],
+      "source_crop_canvas_px": [
+        1628,
+        1336,
+        1802,
+        1515
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "场地边缘、道路林带",
+      "rule": "保留较低对比度，按目标行道树间距排布。",
+      "sha256": "db90ea6515b7d431341a698227db48e6961d59d2151d018b1ff69bb8ab470db1",
+      "roles": [
+        "tree"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": 1,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "native_pixels",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 50.0,
+          "angle": -133,
+          "distance": 43.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 168,
+          "name": "street_tree",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 58.824,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 86,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          168
+        ]
+      }
+    },
+    {
+      "id": "U-H01",
+      "style": "park",
+      "name": "草地休憩人物组",
+      "category": "H",
+      "kind": "symbol",
+      "file": "assets/U-H01.png",
+      "pixel_size": [
+        70,
+        55
+      ],
+      "source_index": [
+        59,
+        0
+      ],
+      "source_layer_id": 359,
+      "source_layer_path": "people/Layer 63",
+      "source_crop_local_px": [
+        0,
+        0,
+        70,
+        55
+      ],
+      "source_crop_canvas_px": [
+        780,
+        3263,
+        850,
+        3318
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "允许停留的开敞草坪",
+      "rule": "采用源休憩姿态；不得放到车道或水面。",
+      "sha256": "8c0beee6c4e465d4cc83aa24cdf1c52b87c9b45293e3596ac7841981868fca09",
+      "roles": [
+        "person"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 269,
+          "name": "people",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 359,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          269
+        ]
+      }
+    },
+    {
+      "id": "U-H02",
+      "style": "park",
+      "name": "草地坐姿人物",
+      "category": "H",
+      "kind": "symbol",
+      "file": "assets/U-H02.png",
+      "pixel_size": [
+        51,
+        37
+      ],
+      "source_index": [
+        59,
+        1
+      ],
+      "source_layer_id": 360,
+      "source_layer_path": "people/Layer 64",
+      "source_crop_local_px": [
+        0,
+        0,
+        51,
+        37
+      ],
+      "source_crop_canvas_px": [
+        1076,
+        2679,
+        1127,
+        2716
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "休息草坪、野餐区",
+      "rule": "51×37 px，仅作小比例尺活动提示。",
+      "sha256": "127f969165a0bee9edbd1edde017a5dfbaf46d6edd91114221fb2351cd6e51c6",
+      "roles": [
+        "person"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 269,
+          "name": "people",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 360,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          269
+        ]
+      }
+    },
+    {
+      "id": "U-H03",
+      "style": "park",
+      "name": "步行人物组",
+      "category": "H",
+      "kind": "symbol",
+      "file": "assets/U-H03.png",
+      "pixel_size": [
+        62,
+        44
+      ],
+      "source_index": [
+        59,
+        27
+      ],
+      "source_layer_id": 334,
+      "source_layer_path": "people/Layer 47",
+      "source_crop_local_px": [
+        0,
+        0,
+        62,
+        44
+      ],
+      "source_crop_canvas_px": [
+        977,
+        1437,
+        1039,
+        1481
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "广场与步道",
+      "rule": "以目标尺度控制密度，避免挡住边界与标注。",
+      "sha256": "5dd1566006bbac1d7419d19f44bcad8dfef319805ac72217f7ef06ae2f829708",
+      "roles": [
+        "person"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 269,
+          "name": "people",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": false,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 334,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          269
+        ]
+      }
+    },
+    {
+      "id": "U-F01",
+      "style": "park",
+      "name": "户外桌椅组",
+      "category": "F",
+      "kind": "symbol",
+      "file": "assets/U-F01.png",
+      "pixel_size": [
+        58,
+        55
+      ],
+      "source_index": [
+        44
+      ],
+      "source_layer_id": 295,
+      "source_layer_path": "Layer 38",
+      "source_crop_local_px": [
+        471,
+        377,
+        529,
+        432
+      ],
+      "source_crop_canvas_px": [
+        1249,
+        1711,
+        1307,
+        1766
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "广场外摆、休闲庭院",
+      "rule": "在明确允许停留的位置使用；保留主通道。",
+      "sha256": "5961786b4b1d4a4ebc7848a4aa39d42020f9c81dd3eac0aad1ba7185d3566db7",
+      "roles": [
+        "furniture"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 53.0,
+          "angle": -133,
+          "distance": 5.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 295,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "U-F02",
+      "style": "park",
+      "name": "长条公园坐凳",
+      "category": "F",
+      "kind": "symbol",
+      "file": "assets/U-F02.png",
+      "pixel_size": [
+        102,
+        27
+      ],
+      "source_index": [
+        43
+      ],
+      "source_layer_id": 66,
+      "source_layer_path": "bench",
+      "source_crop_local_px": [
+        595,
+        83,
+        697,
+        110
+      ],
+      "source_crop_canvas_px": [
+        1061,
+        692,
+        1163,
+        719
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "园路边、林荫广场、休憩节点",
+      "rule": "沿目标停留界面布置；只有约 90×15 px 的本体，避免放大。",
+      "sha256": "4c1eefff346997ebdb681494be9c1d72cb2fd2d3eb764169e6b015a8a4eff9eb",
+      "roles": [
+        "furniture"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 72.0,
+          "angle": -133,
+          "distance": 6.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [],
+      "source_fill_opacity_pct": 100.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 66,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": []
+      }
+    },
+    {
+      "id": "U-V01",
+      "style": "park",
+      "name": "公园接驳车辆",
+      "category": "V",
+      "kind": "symbol",
+      "file": "assets/U-V01.png",
+      "pixel_size": [
+        272,
+        75
+      ],
+      "source_index": [
+        69,
+        4
+      ],
+      "source_layer_id": 356,
+      "source_layer_path": "big_tree/Layer 62",
+      "source_crop_local_px": [
+        0,
+        0,
+        272,
+        75
+      ],
+      "source_crop_canvas_px": [
+        1184,
+        820,
+        1456,
+        895
+      ],
+      "source_opacity_pct": 100.0,
+      "source_blend": "norm",
+      "source_mask": false,
+      "source_clipping": false,
+      "opacity_baked": false,
+      "mask_applied": false,
+      "verified_seamless": null,
+      "use": "有接驳车功能的车行空间",
+      "rule": "从车身独立层提取，不包含源项目车身文字；按目标道路尺度使用。",
+      "sha256": "7af9a87e62a2c8e713c100530e5bd6678dfdb9b4d5cc1b6f69133a2f257659d1",
+      "roles": [
+        "vehicle"
+      ],
+      "approved": true,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "small_local_only",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": 100.0,
+      "effects_baked": false,
+      "source_effects": [
+        {
+          "type": "DropShadow",
+          "enabled": true,
+          "active_in_saved_composite": true,
+          "opacity": 50.0,
+          "angle": -133,
+          "distance": 18.0,
+          "size": 0.0,
+          "use_global_light": true,
+          "blend_mode": "Mltp"
+        }
+      ],
+      "source_effects_note": "完整颜色、图案资源、比例、相位及调整参数见 source_composition 指向的核验记录；效果总开关和单项开关分别保留。",
+      "source_effective_visible": true,
+      "source_parent_opacities": [
+        {
+          "layer_id": 165,
+          "name": "big_tree",
+          "opacity_pct": 100.0,
+          "fill_opacity_pct": 100.0,
+          "blend_mode": "pass"
+        }
+      ],
+      "source_fill_opacity_pct": 80.0,
+      "fill_opacity_baked": false,
+      "source_effects_master_enabled": true,
+      "source_composition": {
+        "audit": "library/composition-audit.json",
+        "source_id": "park",
+        "layer_id": 356,
+        "clipping_base_layer_id": null,
+        "clip_layer_ids": [],
+        "parent_layer_ids": [
+          165
+        ]
+      }
+    },
+    {
+      "id": "U-REF01",
+      "style": "park",
+      "name": "林荫入口与集散空间",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/U-REF01.jpg",
+      "pixel_size": [
+        1310,
+        800
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        390,
+        40,
+        1700,
+        840
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "城市公园入口、林荫广场",
+      "rule": "借鉴铺地、密叶乔木、统一树影、坐席与人群关系。",
+      "sha256": "df47c258965eb7a4c47f4418097eb792c94683e4dcb82b1f95a840c637721fa4",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "U-REF02",
+      "style": "park",
+      "name": "活动广场与台阶绿带",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/U-REF02.jpg",
+      "pixel_size": [
+        1154,
+        1200
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        420,
+        1110,
+        1680,
+        2420
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "城市广场、活动公园",
+      "rule": "重点硬地保持开敞，桌椅沿停留带布置；台阶线随目标几何。",
+      "sha256": "f8afdff51063b42552179399eed69442dee395a6c5809554ff7e0407b800b4a2",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "U-REF03",
+      "style": "park",
+      "name": "开放草坪与木平台",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/U-REF03.jpg",
+      "pixel_size": [
+        970,
+        1180
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        350,
+        2330,
+        1320,
+        3510
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "可停留草坪、线性公园",
+      "rule": "疏密草纹、边缘树群、木平台和活动人物构成丰富度。",
+      "sha256": "1ce15cd6840e02aeb878746b45b7056fe719e1c1e87cc6a8bac21546ce656d0d",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    },
+    {
+      "id": "U-REF04",
+      "style": "park",
+      "name": "特色花境与休憩路径",
+      "category": "REF",
+      "kind": "reference",
+      "file": "examples/U-REF04.jpg",
+      "pixel_size": [
+        527,
+        1200
+      ],
+      "source_index": null,
+      "source_crop_canvas_px": [
+        1130,
+        2600,
+        1710,
+        3920
+      ],
+      "source_opacity_pct": null,
+      "source_blend": null,
+      "use": "观赏花园、窄地节点",
+      "rule": "花境以色块层次配合路径，植物边缘和地面明暗分层。",
+      "sha256": "a0ce09ffa630e5f8fc0fd0dfc90ae0e53a02b032eb620d9c0b9c796b22c52765",
+      "roles": [
+        "reference"
+      ],
+      "approved": false,
+      "source_reference": {
+        "source_id": "park",
+        "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe"
+      },
+      "symbol_units": null,
+      "baked_shadow": false,
+      "baked_shadow_note": "未把 PSD 图层效果烘焙进 PNG；像素自身明暗保留。",
+      "resolution_class": "reference",
+      "max_default_scale": 1.0,
+      "recommended_opacity_pct": null,
+      "effects_baked": false,
+      "source_effects": []
+    }
+  ],
+  "source_count": 4,
+  "asset_count": 78,
+  "notes": {
+    "pixels": "原始像素样本，不含图层总体不透明度、蒙版、调整层及效果。",
+    "reference": "组合图仅供视觉参考，不是透明可贴素材。",
+    "rules": "尺度、疏密和起调比例是表现建议，不是规划或施工指标。",
+    "composition": "PNG 不含 Opacity、Fill、父组、剪贴基底、原蒙版及样式的完整合成关系。按 source_composition 和部位工序重建。"
+  },
+  "version": "1.1"
+}

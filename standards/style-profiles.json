@@ -1,0 +1,385 @@
+{
+  "schema": "landscape-style-profiles/v1",
+  "version": "1.2",
+  "source_count": 4,
+  "default_quality": "L2",
+  "palette_basis": "表现方向示意色，不是源 PSD 的色值测量。以源总览与组合参考校色。",
+  "selection": "乡村与山地选 rural；住宅选 residential；曲线地形与水景节点选 landscape；城市活动公园与广场选 park。",
+  "profiles": {
+    "rural": {
+      "prefix": "P",
+      "name": "自然公园 / 乡村",
+      "scenes": [
+        "乡村更新",
+        "山地公园",
+        "自然河岸"
+      ],
+      "language": "橄榄绿、土褐地面、蓝灰水、低饱和树冠与地形层次",
+      "palette": [
+        "#909a62",
+        "#c1ad8b",
+        "#8ba3a5",
+        "#56606d"
+      ],
+      "overview": "rural_overview.jpg",
+      "default_assets": [
+        "P-G01",
+        "P-G02",
+        "P-W01",
+        "P-P01",
+        "P-P03",
+        "P-D01",
+        "P-T01"
+      ],
+      "limitations": "树冠小样像素较低；山地、建筑、原河道、云雾边缘不直接搬入新项目。",
+      "recipes": [
+        {
+          "space": "山地草坡与林缘",
+          "assets": [
+            "P-G01",
+            "P-G02",
+            "P-T01"
+          ],
+          "reference": "P-REF01",
+          "layers": "目标地形底色 + 双层草纹 + 坡面明暗 + 目标等高线 + 疏林"
+        },
+        {
+          "space": "村落街巷与院落",
+          "assets": [
+            "P-P01",
+            "P-P02",
+            "P-P03",
+            "P-T01"
+          ],
+          "reference": "P-REF02",
+          "layers": "目标建筑屋面 + 乡土铺装 + 点树 + 统一投影"
+        },
+        {
+          "space": "自然河岸与栈道",
+          "assets": [
+            "P-W01",
+            "P-D01",
+            "P-G02"
+          ],
+          "reference": "P-REF03",
+          "layers": "蓝灰水底 + 柔光水波 + 目标水岸 + 木平台 + 林缘"
+        }
+      ]
+    },
+    "residential": {
+      "prefix": "R",
+      "name": "住宅区景观",
+      "scenes": [
+        "宅间绿地",
+        "社区庭院",
+        "住宅配套公园"
+      ],
+      "language": "中深绿树冠、明亮草坪、米白节点铺装、灰白屋面与清晰投影",
+      "palette": [
+        "#95b666",
+        "#477245",
+        "#e3dece",
+        "#92bec8"
+      ],
+      "overview": "residential_overview.jpg",
+      "default_assets": [
+        "R-G01",
+        "R-G02",
+        "R-T01",
+        "R-T02",
+        "R-T07",
+        "R-T08",
+        "R-P01",
+        "R-W01"
+      ],
+      "limitations": "树组按多株单位使用；不移植源楼体、楼号、车位和水池外形。",
+      "recipes": [
+        {
+          "space": "宅间绿地",
+          "assets": [
+            "R-G01",
+            "R-G02",
+            "R-T01",
+            "R-T02",
+            "R-T07"
+          ],
+          "reference": "R-REF01",
+          "layers": "草坪纹理 + 局部灌木地被 + 乔木组与单株 + 建筑投影"
+        },
+        {
+          "space": "水景会客庭院",
+          "assets": [
+            "R-W01",
+            "R-P01",
+            "R-F01",
+            "R-F02",
+            "R-T04"
+          ],
+          "reference": "R-REF02",
+          "layers": "水面 + 池岸 + 米白铺装 + 绿岛 + 与功能对应的家具"
+        },
+        {
+          "space": "社区道路与停车",
+          "assets": [
+            "R-P02",
+            "R-T07",
+            "R-V01"
+          ],
+          "reference": "R-REF03",
+          "layers": "目标路面与路缘 + 车位线 + 林带 + 车辆"
+        }
+      ]
+    },
+    "landscape": {
+      "prefix": "M",
+      "name": "现代曲线景观",
+      "scenes": [
+        "曲线公园",
+        "建筑外场",
+        "水景与地形节点"
+      ],
+      "language": "浅黄绿轻盈树冠、浅色流线铺装、蓝绿斑驳水面、细线地形",
+      "palette": [
+        "#b4c56b",
+        "#dddacb",
+        "#75a7a1",
+        "#b5a187"
+      ],
+      "overview": "landscape_overview.jpg",
+      "default_assets": [
+        "M-G01",
+        "M-G02",
+        "M-T01",
+        "M-T02",
+        "M-T03",
+        "M-P01",
+        "M-W01",
+        "M-D01"
+      ],
+      "limitations": "原图整体偏柔亮；原始纹理需叠加与调色后比对总览。细线不能替代真实地形。",
+      "recipes": [
+        {
+          "space": "曲线步道与草坡",
+          "assets": [
+            "M-G01",
+            "M-G02",
+            "M-T01",
+            "M-T02",
+            "M-P01",
+            "M-P02"
+          ],
+          "reference": "M-REF01",
+          "layers": "草地底色与叠加纹理 + 浅色主径 + 暖色嵌带 + 轻盈树冠 + 目标地形细线"
+        },
+        {
+          "space": "水景与花树节点",
+          "assets": [
+            "M-W01",
+            "M-P01",
+            "M-D01",
+            "M-T04",
+            "M-S01",
+            "M-H01"
+          ],
+          "reference": "M-REF02",
+          "layers": "蓝绿水面 + 池岸 + 台阶/木平台 + 局部花树 + 方案已有的喷泉与人物"
+        },
+        {
+          "space": "主体与道路边缘",
+          "assets": [
+            "M-G01",
+            "M-T01",
+            "M-V01"
+          ],
+          "reference": "M-REF03",
+          "layers": "完整场地边界 + 主体树群 + 外围低对比底图 + 展示组柔化"
+        }
+      ]
+    },
+    "park": {
+      "prefix": "U",
+      "name": "城市公园 / 活动广场",
+      "scenes": [
+        "城市公园",
+        "口袋公园",
+        "活动广场",
+        "花境花园"
+      ],
+      "language": "密叶乔木、开敞活动草坪、暖米铺装、局部花境、坐席与人群",
+      "palette": [
+        "#87b65e",
+        "#54754b",
+        "#d9cda7",
+        "#ad8192"
+      ],
+      "overview": "park_overview.jpg",
+      "default_assets": [
+        "U-G01",
+        "U-G02",
+        "U-P01",
+        "U-P02",
+        "U-T01",
+        "U-T03",
+        "U-T04",
+        "U-B01",
+        "U-B02",
+        "U-B03",
+        "U-F02"
+      ],
+      "limitations": "花境、碎石、人物与坐凳小样只适合局部；大树同源变体较多，避免同形重复。",
+      "recipes": [
+        {
+          "space": "林荫入口",
+          "assets": [
+            "U-P01",
+            "U-T01",
+            "U-T03",
+            "U-F02",
+            "U-H03"
+          ],
+          "reference": "U-REF01",
+          "layers": "入口铺装 + 林荫界面 + 坐凳 + 少量步行人物 + 一致树影"
+        },
+        {
+          "space": "活动广场与台阶绿带",
+          "assets": [
+            "U-P02",
+            "U-P03",
+            "U-T01",
+            "U-F01",
+            "U-H03"
+          ],
+          "reference": "U-REF02",
+          "layers": "开放硬地 + 局部嵌带 + 阶梯绿带 + 停留区桌椅 + 活动配景"
+        },
+        {
+          "space": "可停留的开敞草坪",
+          "assets": [
+            "U-G01",
+            "U-G02",
+            "U-T01",
+            "U-T02",
+            "U-H01",
+            "U-H02"
+          ],
+          "reference": "U-REF03",
+          "layers": "草地底纹与明暗 + 边缘树群 + 目标平台 + 少量休憩人物"
+        },
+        {
+          "space": "特色花境与休憩路径",
+          "assets": [
+            "U-B01",
+            "U-B02",
+            "U-B03",
+            "U-P01",
+            "U-F02"
+          ],
+          "reference": "U-REF04",
+          "layers": "路径 + 深绿地被背景 + 黄绿及粉色花境 + 坐席 + 局部点树"
+        }
+      ]
+    }
+  },
+  "quality": {
+    "L1": "边界闭合、分区材质、尺度与底图配准",
+    "L2": "L1 + 按目标部位完成肌理、局部塑形、边缘接触、植物层次、节点、投影及局部/整体调色；园区内部主次、明暗分量和色彩关系可读，以操作记录和最终视觉共同核对",
+    "L3": "L2 + 重点节点铺装、设施活动和局部表现进一步深化，满足更精细的展示与输出要求；基础主次和色彩质量仍是 L2 的要求"
+  },
+  "suggested_rendering_parameters": {
+    "basis": "本项目表现起调值；不是源图测量，也不是设计或施工指标",
+    "grass_tone_levels_min": 3,
+    "open_lawn_readable_area_ratio": [
+      0.6,
+      0.8
+    ],
+    "natural_tree_edge_overlap_ratio": [
+      0.15,
+      0.35
+    ],
+    "identical_group_consecutive_max": 3,
+    "accent_canopy_area_ratio": [
+      0.05,
+      0.15
+    ],
+    "illustrative_building_shadow_opacity_pct": [
+      25,
+      50
+    ],
+    "visual_composition": "standards/visual-composition.json",
+    "crown_variation_method": "先分大中小角色和群落，再定冠幅与树位；详细起调值见 visual-composition.json，明确种植设计优先。"
+  },
+  "cross_style_rules": [
+    {
+      "from": "landscape",
+      "to": "rural",
+      "assets": [
+        "M-T01",
+        "M-T02"
+      ],
+      "condition": "需要比 P 系列更清晰的自然树冠时可选；降低饱和与对比后局部试铺，保留主模板色阶。"
+    },
+    {
+      "from": "park",
+      "to": "landscape",
+      "assets": [
+        "U-F01",
+        "U-F02",
+        "U-H01",
+        "U-H02",
+        "U-B01",
+        "U-B02",
+        "U-B03"
+      ],
+      "condition": "目标确有休憩/花境功能；淡化强对比，不改主模板轻盈植被基调。"
+    },
+    {
+      "from": "residential",
+      "to": "park",
+      "assets": [
+        "R-F01",
+        "R-V01"
+      ],
+      "condition": "目标存在遮阳休憩或车行功能；尺度、透明度与光向统一。"
+    },
+    {
+      "from": "landscape",
+      "to": "park",
+      "assets": [
+        "M-D01",
+        "M-W01"
+      ],
+      "condition": "补充公园木平台或水景材质；重建目标蒙版，匹配 U 模板暖地面与植物对比。"
+    }
+  ],
+  "layer_order": [
+    "00 CAD底图",
+    "01 场地蒙版",
+    "02 地面底色",
+    "03 材质肌理",
+    "04 水域水岸",
+    "05 植物",
+    "06 建筑细节",
+    "07 投影",
+    "08 节点设施与活动",
+    "09 CAD轮廓与标注",
+    "10 调色与展示效果"
+  ],
+  "checks": [
+    "源文件与素材哈希可追溯",
+    "CAD与场地蒙版配准",
+    "边缘、转角和左下空白逐区检查",
+    "材质清晰度与接缝",
+    "树组单位与配景尺度",
+    "植物疏密和活动开敞面",
+    "投影方向一致",
+    "源标签与原项目几何未随材质移植",
+    "PSD重开与实际阶段视频记录",
+    "最终缩略图可辨大中小树冠与疏密节奏",
+    "较大连续草坪内部有可读的宏观亮中暗过渡",
+    "Fill、Opacity、父组及剪贴依赖分别核对",
+    "样式总开关、单项效果及嵌入图案资源可恢复",
+    "部位完整工序及基底/材质/完整合成阶段对照"
+  ],
+  "material_workflows": "standards/material-workflows.json",
+  "composition_audit": "library/composition-audit.json"
+}

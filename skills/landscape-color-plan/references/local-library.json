@@ -1,0 +1,16 @@
+{
+  "library_root": "../../..",
+  "library_root_base": "本配置文件所在目录；先解析真实路径以支持 skill 目录链接。也支持明确的绝对路径覆盖。",
+  "standards": "standards/彩平素材使用规范.md",
+  "style_profiles": "standards/style-profiles.json",
+  "composition": "standards/visual-composition.json",
+  "asset_index": "library/asset-index.json",
+  "execution_notes": "standards/自动调用约定.md",
+  "asset_query": "tools/materials.py",
+  "material_workflows": "standards/material-workflows.json",
+  "composition_audit": "library/composition-audit.json",
+  "composition_review": "standards/四套PSD分层工艺拆解.md",
+  "visual_review": "skills/landscape-color-plan/references/visual-review.md",
+  "volume_and_lighting": "skills/landscape-color-plan/references/volume-and-lighting.md",
+  "focus_and_color": "skills/landscape-color-plan/references/focus-and-color.md"
+}

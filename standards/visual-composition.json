@@ -1,0 +1,49 @@
+{
+  "schema": "landscape-visual-composition/v1",
+  "version": "1.3",
+  "basis": "示意彩平表现起调值；明确的种植设计、规则树阵、用户风格及工程尺寸优先。",
+  "tree": {
+    "natural_classes": [
+      {"id": "small", "role": "收边、过渡与局部花树", "relative_crown_range": [0.55, 0.75], "count_share": 0.30},
+      {"id": "medium", "role": "主要林缘与群落组织", "relative_crown_range": [0.85, 1.10], "count_share": 0.50},
+      {"id": "large", "role": "重点节点与局部树群主体", "relative_crown_range": [1.25, 1.65], "count_share": 0.20}
+    ],
+    "formal_relative_crown_range": [0.95, 1.05],
+    "natural_p90_p10_review_below": 1.8,
+    "diagnostic_min_sample": 20,
+    "placement_order": "先定主体树群、疏段与开口，再分冠幅角色与位置；检查群落覆盖分量，不给每个绿岛相同密度。已有树位优先。",
+    "mask_rule": "区分树干可种植区、设计允许的冠幅覆盖区与最外层场地蒙版；内部跨界依目标设计，不以整冠塞入狭窄绿岛为由统一缩小乔木。",
+    "scale_basis": "目标图的中型可见冠幅 D；排除透明边距和投影，树组按单株理解。",
+    "pixel_limit": "按原素材有效像素限制缩放；大树素材不足时更换适配素材，不压小全体树冠。"
+  },
+  "grass": {
+    "macro_tone_levels": 3,
+    "area_share_example": {"mid": 0.65, "bright": 0.22, "dark": 0.13},
+    "bright_delta_lstar": [5, 9],
+    "dark_delta_lstar": [-15, -8],
+    "macro_patch_diameter_in_medium_crowns": [2, 5],
+    "transition_width_in_medium_crowns": [0.4, 1.2],
+    "bare_lawn_smoothed_p90_minus_p10_lstar_review_below": 8,
+    "layers": ["草坪底色", "开敞亮部", "林缘暗部", "细草纹"],
+    "diagnostic_scope": "在较大连续裸露草坪内，排除树冠、地被及其他投影；按冠幅尺度平滑后检查宏观明暗。",
+    "spatial_rule": "先按连续空间组织明暗场，再裁入目标分区；开敞面偏亮，林缘和实际遮阴偏暗，小块可保持安静中调。距离场仅为草案，检查重复中心亮斑、等宽暗圈与枕状鼓包。"
+  },
+  "review": {
+    "views": ["最终整图缩略预览", "主场地缩图；有适用参考时按相近展示宽度比较", "100% 关键局部"],
+    "guide": "skills/landscape-color-plan/references/visual-review.md",
+    "expression_guide": "skills/landscape-color-plan/references/focus-and-color.md",
+    "reference_policy": {"required": false, "clear": "用适用于本图的特点校准表现", "approximate": "提取相容特点，记录本次解释", "absent": "依据目标功能、空间结构和用途自主确定表达方案"},
+    "expression_plan": ["分区与功能依据", "主次和衬托关系", "明暗分量与位置", "材料色相、明度、彩度及强调色范围"],
+    "final_composite_check": "平、灰或缺少重点时查看主场地灰度缩图与相关图层贡献，定位继承调色、透明度或覆盖关系；不靠增加树数和细节替代主次修正。",
+    "conditional_guides": [
+      {"when": "目标设计、表达方向或适用参考强调曲面体量、地形高差、构件厚度或明显方向性投影", "path": "skills/landscape-color-plan/references/volume-and-lighting.md", "checks": ["对象与高度依据", "自身明暗、接触影与落影", "树冠风格与缩图分量", "渲染配准与受影面"], "status": "pending"}
+    ],
+    "pilot_rule": "试铺覆盖最影响主图的节点及邻接空间；重要特殊材料未覆盖时补小样，边角试铺不代替主节点。",
+    "criteria": ["空间主次", "明暗分量", "色彩关系", "树群与尺度", "草坪明暗", "材质与节点功能", "植物层次与活动", "水岸、收边与光影", "最终可读性"],
+    "assessment_status": "pending",
+    "states_after_visual_inspection": ["pass", "revise", "not_applicable"],
+    "record": "visual_review.json 或等价 Markdown；记录表达依据与安排、最终图路径与哈希、实际参考及作用（如有）、检查图片、位置观察、修正和实际完成度。",
+    "decision": "参数输出不生成视觉结论；执行者按所选风格查看试铺，主要问题修正后再展开。操作 done、冠幅统计或父组存在均不能自动推导 pass。",
+    "source_geometry_priority": true
+  }
+}

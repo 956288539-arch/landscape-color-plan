@@ -1,0 +1,54 @@
+[
+  {
+    "id": "rural",
+    "filename": "美丽乡村规划总平面图.psd",
+    "path": "source-psd/美丽乡村规划总平面图.psd",
+    "sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766",
+    "size_bytes": 533982142,
+    "canvas": [
+      4134,
+      2633
+    ],
+    "color_mode": "3",
+    "depth": 8
+  },
+  {
+    "id": "residential",
+    "filename": "【i素材管家】居住区彩平图.psd",
+    "path": "source-psd/【i素材管家】居住区彩平图.psd",
+    "sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e",
+    "size_bytes": 978806311,
+    "canvas": [
+      10100,
+      5692
+    ],
+    "color_mode": "3",
+    "depth": 8
+  },
+  {
+    "id": "landscape",
+    "filename": "现代景观彩平图_彩总ID_1178702543.psd",
+    "path": "source-psd/现代景观彩平图_彩总ID_1178702543.psd",
+    "sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12",
+    "size_bytes": 270052212,
+    "canvas": [
+      3482,
+      3308
+    ],
+    "color_mode": "3",
+    "depth": 8
+  },
+  {
+    "id": "park",
+    "filename": "现代公园彩平图_公园彩平图_简约风ID_1202507415.psd",
+    "path": "source-psd/现代公园彩平图_公园彩平图_简约风ID_1202507415.psd",
+    "sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe",
+    "size_bytes": 125085144,
+    "canvas": [
+      2149,
+      4340
+    ],
+    "color_mode": "3",
+    "depth": 8
+  }
+]

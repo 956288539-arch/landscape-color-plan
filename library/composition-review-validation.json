@@ -1,0 +1,229 @@
+{
+  "schema": "landscape-composition-review/v1",
+  "source_files_unchanged": true,
+  "asset_pixels_and_ids_unchanged": true,
+  "source_layers": 439,
+  "registered_assets": 78,
+  "enriched_assets": 62,
+  "embedded_pattern_resources": 15,
+  "workflow_queries_passed": 27,
+  "native_comparison_experiments": [
+    {
+      "source_id": "rural",
+      "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766",
+      "operation": {
+        "name": "without_grade",
+        "hide": [
+          [
+            8
+          ]
+        ]
+      },
+      "image": "work/cache/composition-review-20260908/native/rural_without_grade.jpg",
+      "image_sha256": "2189328676bc64879dcaa48de8d252bf05972d0ef282dc97d9bd762a2ed8c475",
+      "mean_absolute_rgb_difference": 9.2086
+    },
+    {
+      "source_id": "rural",
+      "source_sha256": "1b24094c37e8913a1751dd9df39555f7514fac5b9cdc5285eb1c269278986766",
+      "operation": {
+        "name": "without_terrain_overlay",
+        "hide": [
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            13
+          ]
+        ]
+      },
+      "image": "work/cache/composition-review-20260908/native/rural_without_terrain_overlay.jpg",
+      "image_sha256": "caac1563adfc9ca97536681aff7ea97e298675899bb60ea70682efb1849b3933",
+      "mean_absolute_rgb_difference": 31.6413
+    },
+    {
+      "source_id": "residential",
+      "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e",
+      "operation": {
+        "name": "without_material_styles",
+        "fx_off": [
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            11
+          ],
+          [
+            12
+          ],
+          [
+            18
+          ],
+          [
+            19
+          ],
+          [
+            20
+          ],
+          [
+            22
+          ],
+          [
+            24
+          ],
+          [
+            30
+          ],
+          [
+            34
+          ]
+        ]
+      },
+      "image": "work/cache/composition-review-20260908/native/residential_without_material_styles.jpg",
+      "image_sha256": "0772ee71168e1ce260e8976f78b684b017af067f4b2bf269ba848cbe39d0412b",
+      "mean_absolute_rgb_difference": 1.4398
+    },
+    {
+      "source_id": "residential",
+      "source_sha256": "75e83bb51e49ba580ab43976222c04cb92795163b9059addd6cbb6579e9bfb7e",
+      "operation": {
+        "name": "without_built_shadow",
+        "hide": [
+          [
+            45
+          ],
+          [
+            46
+          ],
+          [
+            48
+          ]
+        ]
+      },
+      "image": "work/cache/composition-review-20260908/native/residential_without_built_shadow.jpg",
+      "image_sha256": "9f4eeeed89a479c4749245561848fc608b2a93d2b3440309f35b58d8340d7126",
+      "mean_absolute_rgb_difference": 7.65
+    },
+    {
+      "source_id": "landscape",
+      "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12",
+      "operation": {
+        "name": "without_local_grass_finish",
+        "hide": [
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ]
+      },
+      "image": "work/cache/composition-review-20260908/native/landscape_without_local_grass_finish.jpg",
+      "image_sha256": "6aacd952ef13b9940af013d1de3c8da05ea5df086e127fc7c6cc4cedc9beaefa",
+      "mean_absolute_rgb_difference": 3.9503
+    },
+    {
+      "source_id": "landscape",
+      "source_sha256": "5c5d30d99d9cd5754242485fd1ab07cfd29c954a2cd06115769616e7ec669a12",
+      "operation": {
+        "name": "without_global_grade",
+        "hide": [
+          [
+            43
+          ],
+          [
+            44
+          ],
+          [
+            45
+          ],
+          [
+            47
+          ]
+        ]
+      },
+      "image": "work/cache/composition-review-20260908/native/landscape_without_global_grade.jpg",
+      "image_sha256": "0171db01c45a8940bbd90f2cf0a4ef44c78cb4558d618a1a236876d24ca72ab0",
+      "mean_absolute_rgb_difference": 12.6245
+    },
+    {
+      "source_id": "park",
+      "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe",
+      "operation": {
+        "name": "without_lawn_overlays",
+        "hide": [
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      "image": "work/cache/composition-review-20260908/native/park_without_lawn_overlays.jpg",
+      "image_sha256": "d17d3c39a3ebce415f4886e3c3829ddac6c30b191908eb92f3589b8da9220511",
+      "mean_absolute_rgb_difference": 0.6143
+    },
+    {
+      "source_id": "park",
+      "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe",
+      "operation": {
+        "name": "lawn_fill_100",
+        "fill": [
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      "image": "work/cache/composition-review-20260908/native/park_lawn_fill_100.jpg",
+      "image_sha256": "04efc8b7bc1628f92cf58884667a1ab4c8a790c6aae05971d53b4700b4c07024",
+      "mean_absolute_rgb_difference": 0.5252
+    },
+    {
+      "source_id": "park",
+      "source_sha256": "7321f42b3b502255f3f30a3bb0c5a2808ee37970bde0dd43faa920c0f43e94fe",
+      "operation": {
+        "name": "without_material_styles",
+        "fx_off": [
+          [
+            33
+          ],
+          [
+            34
+          ],
+          [
+            54
+          ],
+          [
+            55
+          ]
+        ]
+      },
+      "image": "work/cache/composition-review-20260908/native/park_without_material_styles.jpg",
+      "image_sha256": "b99a7afb9d403b47dd60ad547cab1d747d953ceacdb4d0dd69b4870f2ee96d7b",
+      "mean_absolute_rgb_difference": 0.6728
+    }
+  ],
+  "visual_review": "Four comparison sheets inspected; native source-state experiments, not author history or project repaint."
+}

@@ -1,0 +1,5 @@
+work/cache/
+work/vendor/
+__pycache__/
+*.pyc
+*.tmp

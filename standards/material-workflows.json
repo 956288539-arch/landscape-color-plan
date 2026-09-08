@@ -1,6 +1,6 @@
 {
   "schema": "landscape-material-workflows/v1",
-  "version": "1.1",
+  "version": "1.2",
   "basis": "按保存状态核验的源关系与新项目迁移工序；不是源作者历史步骤。源数值不是新图固定值。候选素材不是全部投放清单。",
   "evidence": "library/composition-audit.json",
   "common_operations": {
@@ -770,8 +770,9 @@
     "done_requires": "该操作实际执行且有对应证据；done 仅代表执行状态，视觉结果另行检查。",
     "not_applicable_requires": "依据目标设计或明确风格确认不具备该功能或无需该效果；未知功能、未执行或素材缺失保留 pending。",
     "visual_review_guide": "skills/landscape-color-plan/references/visual-review.md",
-    "visual_record": "另存 visual_review.json 或等价 Markdown，记录目标图版本/哈希、参考、图片证据、位置观察及 pass / revise / not_applicable。未检查保留 pending。",
-    "visual_gate": "关键主节点试铺与样例对照，主要问题修正后展开；最终整图、主场地和 100% 局部实际检查。",
+    "rendering_quality_guide": "skills/landscape-color-plan/references/rendering-quality.md",
+    "visual_record": "另存 visual_review.json 或等价 Markdown，记录表达依据、目标图版本/哈希、实际参考及作用（如有）、图片证据、位置观察及 pass / revise / not_applicable。未检查保留 pending。",
+    "visual_gate": "关键主节点检验具体质感与组合关系，有适用参考时辅助比较；含街树时同时检查连续路段与真实节点。主要问题修正后展开，最终整图、主场地和 100% 局部实际检查。",
     "quality_rule": "区分 requested_quality 与 achieved_quality；素材数、组名、操作 done 和配置 quality_level 都不能自动决定实际完成度。"
   }
 }

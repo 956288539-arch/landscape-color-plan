@@ -58,6 +58,7 @@ def make_recipe(config, count, medium_crown_px, mode='natural', seed=0):
         'scale_diagnostic': {'p90_p10': round(ratio, 4), 'applicable': applicable,
                              'review_suggested': applicable and ratio < config['tree']['natural_p90_p10_review_below']},
         'grass': config['grass'], 'visual_review': config['review'],
+        'street_tree_guidance': config['tree'].get('street', {}),
         'geometry_status': 'unplaced',
         'next_step': '结合本图角色安排树群与位置，核对素材有效像素、目标设计及边界；真实试铺后检查缩略图。'
     }
@@ -70,7 +71,8 @@ def main():
     parser.add_argument('--library-root', type=Path, help='覆盖本机素材库位置')
     parser.add_argument('--count', type=int, required=True)
     parser.add_argument('--medium-crown-px', type=float, required=True, help='本图确定的中型可见冠幅，像素')
-    parser.add_argument('--mode', choices=['natural', 'formal'], default='natural')
+    parser.add_argument('--mode', choices=['natural', 'formal'], default='natural',
+                        help='natural 为自然树群；formal 仅用于已确认的统一规格树阵。普通街树需另按路段指南组织。')
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--output', type=Path, help='新 JSON 路径；已有文件不覆盖，省略则写 stdout')
     args = parser.parse_args()

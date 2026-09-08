@@ -33,6 +33,7 @@ python skills/landscape-color-plan/scripts/visual_recipe.py --count 30 --medium-
 | --- | --- |
 | [Skill](skills/landscape-color-plan/SKILL.md) | 完整工作方式、任务范围与参考路由 |
 | [焦点、明暗与色彩](skills/landscape-color-plan/references/focus-and-color.md) | 无参考自主表达、成图平灰诊断、分区配色与合成复核 |
+| [质感与街树节奏](skills/landscape-color-plan/references/rendering-quality.md) | 冠层塑形、路段变化、相邻材质接触、饱和度与软硬边缘 |
 | [素材使用规范](standards/彩平素材使用规范.md) | 适用部位、尺度、来源、混合及边界 |
 | [图文素材目录](standards/素材目录.md) | 每个素材的图片、用途与限制 |
 | [四套 PSD 分层工艺](standards/四套PSD分层工艺拆解.md) | 原始图层、Fill、Opacity、剪贴、样式与调色的关系 |
@@ -56,6 +57,7 @@ python skills/landscape-color-plan/scripts/visual_recipe.py --count 30 --medium-
 - 先安排主节点、次节点、衬托空间与颜色职责，再深化纹理。没有效果参考也需要自主完成这份判断。
 - 树木先组织群落、冠幅角色和疏密；草坪先建立连续空间的大块明暗，避免每个绿岛复制同一亮斑。
 - 检查最终合成中的明暗、色彩与投影贡献，防止继承的调色或父组透明度把已完成的层次压平。
+- 普通行道树按路段、入口与节点组织有秩序的变化；各材料分别处理冠层、地面、接触与收边，避免全场同参数填色。
 - 功能、边界、单位和已有种植设计来自目标资料；参考中的建筑、球场和地形不直接移植。
 - 默认目标为 L2。工序齐全、文件正常与视觉达标分别核验；用户指出的主要问题需实际修正后才能更新结论。
 

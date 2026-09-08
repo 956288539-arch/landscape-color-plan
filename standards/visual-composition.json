@@ -1,6 +1,6 @@
 {
   "schema": "landscape-visual-composition/v1",
-  "version": "1.3",
+  "version": "1.4",
   "basis": "示意彩平表现起调值；明确的种植设计、规则树阵、用户风格及工程尺寸优先。",
   "tree": {
     "natural_classes": [
@@ -9,6 +9,14 @@
       {"id": "large", "role": "重点节点与局部树群主体", "relative_crown_range": [1.25, 1.65], "count_share": 0.20}
     ],
     "formal_relative_crown_range": [0.95, 1.05],
+    "formal_scope": "仅用于目标明确要求规格统一的规则树阵，不作为所有行道树的默认方案。",
+    "street": {
+      "guide": "skills/landscape-color-plan/references/rendering-quality.md",
+      "within_segment_relative_crown_start": [0.85, 1.15],
+      "basis": "无明确规格时的示意表现起点；已有树位、冠幅和种植设计优先。",
+      "segment_fields": ["segment_id", "树位依据", "序列类型", "主要冠形", "冠幅区间", "留口理由", "明暗角色"],
+      "rule": "道路走向决定序列，路段与节点组织变化，单株小幅差异；检查入口、过街与转角，不把用地内缩一圈当种植线，不使用全场固定删株或黄绿交替。"
+    },
     "natural_p90_p10_review_below": 1.8,
     "diagnostic_min_sample": 20,
     "placement_order": "先定主体树群、疏段与开口，再分冠幅角色与位置；检查群落覆盖分量，不给每个绿岛相同密度。已有树位优先。",
@@ -32,6 +40,7 @@
     "views": ["最终整图缩略预览", "主场地缩图；有适用参考时按相近展示宽度比较", "100% 关键局部"],
     "guide": "skills/landscape-color-plan/references/visual-review.md",
     "expression_guide": "skills/landscape-color-plan/references/focus-and-color.md",
+    "rendering_guide": "skills/landscape-color-plan/references/rendering-quality.md",
     "reference_policy": {"required": false, "clear": "用适用于本图的特点校准表现", "approximate": "提取相容特点，记录本次解释", "absent": "依据目标功能、空间结构和用途自主确定表达方案"},
     "expression_plan": ["分区与功能依据", "主次和衬托关系", "明暗分量与位置", "材料色相、明度、彩度及强调色范围"],
     "final_composite_check": "平、灰或缺少重点时查看主场地灰度缩图与相关图层贡献，定位继承调色、透明度或覆盖关系；不靠增加树数和细节替代主次修正。",
